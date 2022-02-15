@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "AlphaFACE"
 description              : "An amazing A.I."
-url                      : "https://lejack92.github.io/blog"
+url                      : "https://stupefied-swirles-13967e.netlify.app/blog"
 baseurl                  : #"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
