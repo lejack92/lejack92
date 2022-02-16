@@ -15,13 +15,13 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "AlphaFACE Blog"
+locale                   : "en-ko"
+title                    : "AlphaFace Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "AlphaFACE"
+name                     : "AlphaFace"
 description              : "An amazing A.I."
-url                      : "https://stupefied-swirles-13967e.netlify.app/blog"
+url                      : "alphaface-ai.com/blog"
 baseurl                  : #"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "AlphaFACE"
+  name             : "AlphaFace"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** A.I."
   location         : "Somewhere"
@@ -112,7 +112,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://alphaface-ai.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
