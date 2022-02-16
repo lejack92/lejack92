@@ -1,0 +1,141 @@
+*{
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: min(2vw, 18px);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #020200;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    margin: 0 5rem 5rem 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    z-index: 100000;
+}
+
+.navbar .header h1 a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar_menu li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.navbar_menu li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 12px;
+    color: blanchedalmond;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 1000;
+}
+
+.navbar_menu li a:hover{
+    background-color: #d49466;
+    border-radius: 4px;
+}
+
+.navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    font-size: 2.2rem;
+    color: blanchedalmond;
+    right: 32px;
+}
+
+.main2{
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+.main2 h1{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0 auto;
+}
+
+.main2 .main2_text{
+    padding-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 768px){
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 10px 20px 0;
+    }
+
+
+    .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar_menu li {
+        text-align: right;
+        padding: 10px 0;
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .navbar ul li a {
+        font-size: 1.6rem;
+        padding: 3px;
+    }
+
+    .navbar_toggleBtn {
+        right: 3%;
+        display: block;
+    }
+
+    .navbar_toggleBtn:hover{
+        color: #d49466;
+    }
+
+    .navbar_toggleBtn:focus{
+        color : #d49466;
+    }
+
+    .navbar_menu.active {
+        display: block;
+        z-index: 100;
+    }
+}

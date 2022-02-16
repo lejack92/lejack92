@@ -150,7 +150,7 @@ a {
 .enjoy_menu {
     display: flex;
     margin-top: 5rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 
 .enjoy_menu {
@@ -166,6 +166,7 @@ a {
 
 .enjoy_menu img {
     width: 100%;
+    height: 16rem;
     display: block;
     object-fit: cover;
     border-top-left-radius: 0.3rem;
@@ -577,6 +578,11 @@ a {
 
     .enjoy_menu a {
         width: 30rem;
+    }
+
+    .enjoy_menu img {
+        width: 100%;
+        height: 20rem;
     }
 
     .w-btn {
