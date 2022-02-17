@@ -195,10 +195,10 @@ a {
     border-bottom-left-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
     text-align: center;
-    padding: 1rem;
+    padding: .7rem;
     background-color: rgba(255, 255, 255, 0.08);
     color: rgba(255, 255, 255, 0.7);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .main_text1 {
@@ -600,6 +600,10 @@ a {
     .enjoy_menu img {
         width: 100%;
         height: 20rem;
+    }
+
+    .enjoy_menu h2 {
+        font-size: 15px;
     }
 
     .w-btn {
