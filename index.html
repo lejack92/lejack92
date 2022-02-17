@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-82Q1RZ200V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-82Q1RZ200V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-82Q1RZ200V');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-82Q1RZ200V');
+  </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,8 +28,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>AlphaFace | 알파페이스</title>
 </head>
 
@@ -51,6 +54,21 @@
             </ul>
 
           </div>
+
+          <!-- Google 번역 -->
+          <span id="google_translate_element" class="hd_lang"></span>
+          <script>
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({
+                pageLanguage: 'ko',
+                includedLanguages: 'en,es,ko,ja,zh-chs,zh-cht,th,ru,ar-XA,hr,cs,de,fr,hi,he,da,bg,el,et,fi,ga,hu,it,ko,lt,no,pt,ro,sr-CS,sl,tr,lv,pl,sv,sk,uk-UA,pt-BR,uz,vi,mn,el,af',
+                // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+              }, 'google_translate_element');
+            }
+          </script>
+          <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <!-- //Google 번역 -->
 
           <a href="#" class="navbar_toggleBtn">
             <i class="fas fa-bars"></i>
@@ -218,11 +236,24 @@
         </h2>
 
         <ul class="connect">
-          <li><a href="/blog"><i class="fa-solid fa-user-astronaut"></i></a></li>
-          <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=alphaface.ai@gamil.com"><i
-                class="far fa-envelope"></i></a></li>
+
+          <a href="/blog">
+            <li><i class="fa-solid fa-user-astronaut"></i></li>
+          </a>
+
+          <a href="javascript:;"
+            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('alphaface-ai.com'),'facebook-share-dialog','width=626,height=436'); return false;">
+            <li><i class="fab fa-facebook-f"></i></li>
+          </a>
+
+          <a href="https://www.instagram.com/">
+            <li><i class="fab fa-instagram"></i></li>
+          </a>
+
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=alphaface.ai@gamil.com">
+            <li><i class="far fa-envelope"></i></li>
+          </a>
+
         </ul>
 
       </div>

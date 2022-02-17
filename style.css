@@ -77,6 +77,13 @@ a {
     border-radius: 4px;
 }
 
+.goog-te-gadget{
+    position: absolute;
+    float: right;
+    right: 3%;
+    top: 90%;
+}
+
 .navbar_toggleBtn {
     display: none;
     position: absolute;
@@ -124,6 +131,7 @@ a {
 .banner .banner-text button:hover {
     background-color: darkslategray;
 }
+
 
 .main_text0 {
     width: 100%;
@@ -384,10 +392,6 @@ a {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.faq_main label:hover i {
-    background: #ec1a5b;
-}
-
 .faq_main input:checked+label {
     background: rgba(255, 255, 255, 0.5);
 }
@@ -556,6 +560,13 @@ a {
     .banner ul li a {
         font-size: 1.6rem;
         padding: 3px;
+    }
+
+    .goog-te-gadget{
+        position: absolute;
+        float: right;
+        right: 30%;
+        top: 25%;
     }
 
     .navbar_toggleBtn {
