@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alphaface-ai.com/sitemap.xml
