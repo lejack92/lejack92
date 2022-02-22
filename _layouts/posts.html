@@ -3,11 +3,9 @@ layout: archive
 comments: true
 ---
 
-{% if page.comments != false %}
+{% if page.comments == true %}
 {% include disqus_comments.html %}
 {% endif %}  
-
-{{ content }}
 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
@@ -33,3 +31,5 @@ comments: true
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+
+<script id="dsq-count-scr" src="https://alphaface-blog-1.disqus.com/embed.js" async></script>
