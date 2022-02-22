@@ -1,5 +1,6 @@
 ---
 layout: archive
+comments: true
 ---
 
 {{ content }}
@@ -28,3 +29,11 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+
+<!-- disqus -->
+{% if page.comments == true %}
+{% include disqus.html %}
+{% endif %}
+<!-- disqus -->
+
+<script id="dsq-count-scr" src="https://alphaface-blog-1.disqus.com/embed.js" async></script>
