@@ -3,10 +3,6 @@ layout: default
 comments: true
 ---
 
-{% if page.comments == true %}
-{% include disqus_comments.html %}
-{% endif %}  
-
 {{ content }}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -96,5 +92,3 @@ comments: true
     </div>
   {% endif %}
 </div>
-
-<script id="dsq-count-scr" src="https://alphaface-blog-1.disqus.com/embed.js" async></script>
