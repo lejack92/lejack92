@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "AlphaFace Home"
+title                    : "AlphaFace | 알파페이스"
 title_separator          : "|"
 subtitle                 : "알파페이스 블로그 About AI"
 name                     : "AlphaFace"
-description              : "This is AlphaFace's blog / 알파페이스 블로그, AI 인공지능에 관한 주제의 블로그입니다."
+description              : "알파페이스 블로그, AI 인공지능에 관한 주제의 블로그입니다."
 url                      : "https://alphaface-ai.com/blog"
 baseurl                  : #"/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
