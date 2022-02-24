@@ -46,15 +46,15 @@ a {
 
 }
 
-.banner .header h1 {
+.banner .header .name {
     display: flex;
 }
 
 
-.banner .header h1 a {
+.banner .header .name a {
     text-decoration: none;
     color: blanchedalmond;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     z-index: 100000;
 }
@@ -87,7 +87,7 @@ a {
 .navbar_toggleBtn {
     display: none;
     position: absolute;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: blanchedalmond;
     right: 32px;
     top: 20px;
@@ -104,10 +104,14 @@ a {
     width: 50%;
 }
 
-.banner .banner-text h2 {
+.banner .banner-text h1 {
     font-size: 42px;
     margin-bottom: 12px;
     color: rgba(255, 255, 255, 0.95);
+}
+
+.banner .banner-text h1 .ko_name {
+    font-size: 22px;
 }
 
 .banner .banner-text p {
@@ -138,7 +142,7 @@ a {
     background: black;
 }
 
-.main_text0 h1 {
+.main_text0 h2 {
     padding-top: 5rem;
     padding-left: 5rem;
     font-size: 35px;
@@ -170,6 +174,7 @@ a {
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    border: 1px solid #ffc0cb;
 }
 
 .enjoy_menu img {
@@ -188,7 +193,7 @@ a {
 
 
 
-.enjoy_menu h2 {
+.enjoy_menu h3 {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -197,8 +202,9 @@ a {
     text-align: center;
     padding: .7rem;
     background-color: rgba(255, 255, 255, 0.08);
-    color: rgba(255, 255, 255, 0.7);
+    color: #ffc0cb;
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .main_text1 {
@@ -208,7 +214,7 @@ a {
     padding-bottom: 5rem;
 }
 
-.main_text1 h1 {
+.main_text1 h2 {
     padding-top: 5rem;
     padding-left: 5rem;
     font-size: 35px;
@@ -294,16 +300,17 @@ a {
     z-index: 3;
 }
 
-.main_text1 .box-container .about_text h1 {
+.main_text1 .box-container .about_text h3 {
     line-height: normal;
     font-size: 2.2rem;
     font-weight: bolder;
     margin-bottom: 1.3rem;
     color: #d49466;
     padding-top: 0;
+    padding-left: 5rem;
 }
 
-.main_text1 .box-container .about_text h2 {
+.main_text1 .box-container .about_text h4 {
     font-size: 1.5rem;
     font-weight: 400;
     padding-left: 5rem;
@@ -339,7 +346,7 @@ a {
     padding-bottom: 4rem;
 }
 
-.main_text2 h1 {
+.main_text2 h2 {
     padding-top: 5rem;
     padding-left: 5rem;
     font-size: 35px;
@@ -460,14 +467,14 @@ a {
     display: block;
 }
 
-.profile h1 {
+.profile h3 {
     font-size: 3rem;
     color: blanchedalmond;
     font-weight: 200;
     margin-bottom: 1.5rem;
 }
 
-.profile h2 {
+.profile h4 {
     font-size: 2rem;
     color: rgba(255, 255, 255, 0.78);
     font-weight: 200;
@@ -487,11 +494,11 @@ a {
     background-color: rgba(255, 255, 255, 0.09);
     width: 2.5rem;
     height: 2.5rem;
+    font-size: 1.3rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
-    font-size: 1.3rem;
     margin-top: 1.2rem;
 }
 
@@ -519,7 +526,7 @@ a {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding: 1.2rem;
-    font-size: 0.8vw;
+    font-size: 14px;
     margin-bottom: 50px;
     line-height: 1.2rem;
 }
@@ -550,6 +557,10 @@ a {
         display: block;
     }
 
+    .banner .header .name a {
+        font-size: 2.5rem;
+    }
+
     .navbar_menu {
         display: none;
         flex-direction: column;
@@ -567,7 +578,7 @@ a {
     }
 
     .banner ul li a {
-        font-size: 1.6rem;
+        font-size: 2rem;
         padding: 3px;
     }
 
@@ -604,7 +615,7 @@ a {
         height: 20rem;
     }
 
-    .enjoy_menu h2 {
+    .enjoy_menu h3 {
         font-size: 15px;
     }
 
@@ -625,11 +636,11 @@ a {
         text-align: center;
     }
 
-    .main_text1 .box-container .about_text h1 {
+    .main_text1 .box-container .about_text h3 {
         font-size: 3.2rem;
     }
 
-    .main_text1 .box-container .about_text h2 {
+    .main_text1 .box-container .about_text h4 {
         font-weight: 400;
         font-size: 1.6rem;
     }
@@ -641,12 +652,36 @@ a {
         margin: 2.5rem 0 0 0;
     }
 
-
-    .last-text {
-        margin-top: 30px;
-    }
-
     .faq_main {
         width: 80%;
     }
+
+    .faq_main label {
+        font-size: 1.6rem;
+    }
+
+    .profile .connect li {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.8rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile .connect a i {
+        vertical-align:-webkit-baseline-middle;
+        line-height: 0;
+    }
+
+    .last-text {
+        margin-top: 30px;
+        padding: 2rem;
+    }
+
+    .last-text p {
+        margin-top: 12px;
+    }
+
+
 }
