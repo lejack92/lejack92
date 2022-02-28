@@ -202,7 +202,7 @@ a {
   
   .card-text {
     grid-area: text;
-    margin: 1rem;
+    margin: 1rem 1.5rem;
   }
   
   .card-text .date {
@@ -671,21 +671,21 @@ a {
     }
 
     .card {
-        grid-template-rows: 270px 120px 60px;
+        grid-template-rows: 280px 140px 60px;
     }
 
     .card-text .date {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     .card-text h3 {
-        font-size: 2.2rem;
+        font-size: 28px;
         margin: 5px;
     }
 
     .card-text p {
-        font-size: 1.3rem;
-        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 15px;
         line-height: 1.5;
     }
 
