@@ -134,6 +134,12 @@ body {
     background-color: darkslategray;
 }
 
+.adsense {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
 .suject {
     font-family: SB 어그로;
     font-size: 3rem;

@@ -345,6 +345,12 @@ a {
     color: rgba(255, 255, 255, 0.95);
 }
 
+.adsense {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
 
 .main_text1 .box-container {
     max-width: 1100px;
