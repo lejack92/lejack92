@@ -156,6 +156,13 @@ a {
     color: rgba(255, 255, 255, 0.95);
 }
 
+.enjoy_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .enjoy_menu {
     display: flex;
     margin-top: 5rem;
@@ -165,6 +172,7 @@ a {
 .enjoy_menu {
     flex-grow: 1;
 }
+
 
 .enjoy_menu a {
     display: block;
@@ -189,6 +197,8 @@ a {
     cursor: pointer;
     margin: 30px;
   }
+
+
   .card-image {
     grid-area: image;
     background: url("img/likeabilitytest.jpg");
@@ -263,9 +273,33 @@ a {
     box-shadow: rgb(255 255 255) 1px 1px 10px;
   }
   
+.card-image1 {
+    background: url("img/pokemonface.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 1px solid #cccccc;
+  }
 
+  .card-text .date1{
+    color: #3564ac;
+  }
 
+  .card-text1 h3 {
+    color: #020200;
+  }
 
+  .card-stats1 {
+    background: #3564ac;
+  }
+  .card-stats.card-stats1 .stat{
+      color: #ffcb05;
+  }
+
+  .card-stats .border1 {
+    border-left: 1px solid #ffcb05;
+    border-right: 1px solid #ffcb05;
+  }
 
 
 .main_text1 {
@@ -404,6 +438,33 @@ a {
     border-image: linear-gradient(to right, red 0%, orange 100%);
     border-image-slice: 1;
     overflow: hidden;
+}
+
+.about-more {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+}
+
+.about-more button{
+    background: none;
+    border: 0;
+}
+
+.about-more a{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-decoration: none;
+    background: #374d9a;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.about-more a:hover{
+    opacity: 0.8;
 }
 
 
