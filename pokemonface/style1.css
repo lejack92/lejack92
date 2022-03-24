@@ -285,10 +285,10 @@ body {
 
 .drag-text h2 {
     width: 70%;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     color: #ffd400;
-    -webkit-text-stroke: 1px #374d9a;
+    -webkit-text-stroke: 2px #374d9a;
     font-size: 2.2rem;
     font-family: SB 어그로;
     text-align: center;
