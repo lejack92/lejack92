@@ -3,6 +3,13 @@
     transition: all .2s linear;
 }
 
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 html {
     font-size: min(2vw, 18px);
@@ -141,7 +148,7 @@ body {
 }
 
 .suject {
-    font-family: SB 어그로;
+    font-family: 'SBAggroM', sans-serif;
     font-size: 3rem;
     text-align: center;
     margin: 0 auto;
@@ -326,7 +333,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    font-family: SB 어그로;
+    font-family: 'SBAggroM', sans-serif;
 }
 
 .remove-image:hover {
@@ -395,7 +402,7 @@ body {
     display: inline-block;
     font-size: 1.8rem;
     font-weight: 600;
-    font-family: SB어그로;
+    font-family: 'SBAggroM', sans-serif;
     line-height: 1.2;
 }
 
@@ -415,7 +422,7 @@ body {
 .add-message {
     color: #ffea00;
     text-align: center;
-    font-family: SB 어그로;
+    font-family: 'SBAggroM', sans-serif;
     padding: 1rem;
     font-size: 1.1rem;
     line-height: 1.6;
@@ -439,7 +446,7 @@ body {
 
 .other-test a{
     display: inline-block;
-    font-family: SB 어그로;
+    font-family: 'SBAggroM', sans-serif;
     padding: 10px 10px;
     font-size: 1.5rem;
     text-decoration: none;
@@ -453,7 +460,7 @@ body {
 }
 
 .last-text {
-    font-family: SB 어그로;
+    font-family: 'SBAggroM', sans-serif;
     color: #ffffff99;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
