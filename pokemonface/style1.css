@@ -453,6 +453,18 @@ body {
 }
 
 
+.let-share {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'SBAggroM', sans-serif;
+    color: rgba(255,255,255,0.85);
+}
+
+
 .share {
     display: flex;
     text-align: center;
@@ -598,6 +610,10 @@ body {
 
 
     .hashtags h3 {
+        font-size: 2.2rem;
+    }
+
+    .let-share {
         font-size: 2.2rem;
     }
 
