@@ -307,8 +307,8 @@ body {
 .file-upload-image {
     object-fit: cover;
     border-radius: 100%;
-    max-height: 20rem;
-    max-width: 20rem;
+    max-height: 15rem;
+    max-width: 15rem;
     margin: 0 auto;
     margin-bottom: 1.5rem;
     display: inline-block;
@@ -606,6 +606,11 @@ body {
 
     .suject {
         font-size: 4rem;
+    }
+
+    .file-upload-image {
+        max-height: 18rem;
+        max-width: 18rem;
     }
 
 
