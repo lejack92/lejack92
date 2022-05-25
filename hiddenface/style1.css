@@ -332,8 +332,8 @@ body {
 }
 
 .result-title::before {
-    content:"";  position:absolute; top: -3%; left: -2%;
-    display:block; width:45rem; height: 30rem;
+    content:"";  position:absolute; left: 8.5%;
+    display:block; width:36rem; height: 28rem;
     background:url(img/result.jpg) center no-repeat;
     background-size: contain; z-index:0;
 }
@@ -620,6 +620,13 @@ body {
 
     .suject {
         font-size: 4rem;
+    }
+
+    .result-title::before {
+        top: -3%;
+        left: -2%;
+        width: 45rem;
+        height: 30rem;
     }
 
     .file-upload-image {
