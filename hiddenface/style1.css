@@ -194,6 +194,7 @@ body {
 
 .file-upload {
     width: 20rem;
+    height: 20rem;
     margin: 0 auto;
     margin-bottom: 3vw;
 }
@@ -242,7 +243,7 @@ body {
 
 .image-upload-wrap {
     border-radius: 100%;
-    background: url("img/seek.png");
+    background: url("img/seek.png") no-repeat;
     object-fit: cover;
     background-position-x: 60%;
     background-position-y: -2%;
@@ -481,6 +482,10 @@ body {
 
 .share .naver{
     margin-right: 6px;
+}
+
+.share .naver a:hover img{
+    transform: translateY(-4px);
 }
 
 

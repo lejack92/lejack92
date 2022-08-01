@@ -428,6 +428,10 @@ body {
     margin-right: 6px;
 }
 
+.share .naver a:hover img{
+    transform: translateY(-4px);
+}
+
 
 .add-message {
     color: #ffea00;

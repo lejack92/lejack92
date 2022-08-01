@@ -178,6 +178,7 @@ body {
 
 .file-upload {
     width: 20rem;
+    height: 20rem;
     margin: 0 auto;
     margin-bottom: 3vw;
 }
@@ -245,7 +246,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 1px 1px 10px #fff
+    box-shadow: 1px 1px 10px #fff;
 }
 
 .file-upload-input {
@@ -474,6 +475,10 @@ body {
 
 .share .naver{
     margin-right: 6px;
+}
+
+.share .naver a:hover img{
+    transform: translateY(-4px);
 }
 
 
