@@ -406,6 +406,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, .7);
+    z-index: 1;
 }
 
 .loadingBox .circle {
@@ -423,6 +424,7 @@ body {
     animation-duration: .8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 1;
 }
 
 @keyframes spinCircle {
@@ -483,7 +485,6 @@ body {
 
 .at-share-btn-elements{
     position: relative;
-    z-index: -1;
 }
 
 
@@ -496,7 +497,6 @@ body {
     line-height: 1.6;
     margin-top: 2.5rem;
     opacity: 0.8;
-    z-index: -1;
     position: relative;
 }
 
