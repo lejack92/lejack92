@@ -340,6 +340,23 @@ a {
   border-right: 1px solid #cccccc;
 }
 
+.card-image3 {
+  background: url("img/nicknametest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid #cccccc;
+}
+
+.card-text .date3 {
+  color: #f9320c;
+}
+
+.card-stats3{
+  background: #f9320c;
+}
+
+
 
 .w-btn {
   position: relative;

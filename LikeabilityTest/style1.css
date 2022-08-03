@@ -432,6 +432,11 @@ body {
     transform: translateY(-4px);
 }
 
+.at-share-btn-elements{
+    position: relative;
+    z-index: -1;
+}
+
 
 .add-message {
     color: #ffea00;
@@ -443,6 +448,8 @@ body {
     margin-top: 2.5rem;
     margin-bottom: 1.8rem;
     opacity: 0.8;
+    z-index: -1;
+    position: relative;
 }
 
 .other-test {
