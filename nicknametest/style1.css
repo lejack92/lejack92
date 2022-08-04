@@ -348,6 +348,13 @@ body {
     font-family: 'SangSangYoungestDaughter';
 }
 
+.result-title img{
+    position: absolute ;
+    top: 19% ;
+    width: 6rem ;
+    right: -2% ;
+}
+
 .result-explain {
     font-size: 2rem;
     padding-top: .5rem;
@@ -424,6 +431,7 @@ body {
     border-radius: 10px;
     margin: auto;
     border: 10px solid #B98862;
+    position: relative;
     background: url(img/final_bg.jpg)center bottom /cover no-repeat;
 }
 
