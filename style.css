@@ -188,13 +188,10 @@ a {
   grid-template-columns: 300px;
   grid-template-rows: 16rem 10rem 4rem;
   grid-template-areas: "image""text""stats";
-
   border-radius: 18px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
-
-
   transition: 0.5s ease;
   cursor: pointer;
   margin: 30px;
@@ -202,11 +199,11 @@ a {
 
 
 .card-image {
-  grid-area: image;
-  background: url("img/likeabilitytest.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
+  background-position: center center;
+  border-bottom: 1px solid #cccccc;
 }
 
 .card-text {
@@ -215,7 +212,6 @@ a {
 }
 
 .card-text .date {
-  color: rgb(255, 7, 110);
   font-size: 1rem;
   font-weight: 600;
 }
@@ -224,7 +220,7 @@ a {
   font-size: 1.5rem;
   color: #020200;
   font-weight: 600;
-  margin: 10px 25px 10px 25px;
+  margin: 10px auto;
 }
 
 .card-text p {
@@ -242,7 +238,6 @@ a {
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: rgb(255, 7, 110);
 }
 
 .card-stats .stat {
@@ -252,11 +247,6 @@ a {
   justify-content: center;
   flex-direction: column;
   color: white;
-}
-
-.card-stats .border {
-  border-left: 1px solid rgb(172, 26, 87);
-  border-right: 1px solid rgb(172, 26, 87);
 }
 
 .card-stats .value {
@@ -280,80 +270,83 @@ a {
   box-shadow: rgb(255 255 255) 1px 1px 10px;
 }
 
-.card-image1 {
-  background: url("img/pokemonface.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-bottom: 1px solid #cccccc;
+.card-image0 {
+  background-image: url("img/likeabilitytest.jpg");
 }
 
+.card-text .date0 {
+  color: rgb(255, 7, 110);
+}
+
+.card-stats0 {
+  background: rgb(255, 7, 110);
+}
+
+.border0 {
+  border-left: 1px solid rgb(172, 26, 87);
+  border-right: 1px solid rgb(172, 26, 87);
+}
+
+.card-image1 {
+  background-image: url("img/pokemonface.jpg");
+}
 .card-text .date1 {
   color: #3564ac;
 }
-
-.card-text1 h3 {
-  color: #020200;
-}
-
 .card-stats1 {
   background: #3564ac;
 }
-
 .card-stats.card-stats1 .stat {
   color: #ffcb05;
 }
-
-.card-stats .border1 {
+.border1 {
   border-left: 1px solid #ffcb05;
   border-right: 1px solid #ffcb05;
 }
 
 .card-image2 {
-  background: url("img/hiddenface.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border: 1px solid #cccccc;
+  background-image: url("img/hiddenface.jpg");
 }
-
 .card-text .date2 {
   color: #010a13;
 }
-
-.card-text2 h3 {
-  color: #020200;
-  width: 11.1rem;
-}
-
 .card-stats2 {
   background: #010a13;
   border: 1px solid #cccccc;
 }
-
 .card-stats.card-stats2 .stat {
   color: blanchedalmond;
 }
-
-.card-stats .border2 {
+.border2 {
   border-left: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
 }
 
 .card-image3 {
-  background: url("img/nicknametest.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border: 1px solid #cccccc;
+  background-image: url("img/nicknametest.jpg");
 }
-
 .card-text .date3 {
   color: #f9320c;
 }
-
 .card-stats3{
   background: #f9320c;
+}
+
+.card-image4 {
+  background-image: url("img/zzanggutest.jpg");
+}
+.card-text .date4 {
+  color: blueviolet;
+}
+.card-stats4{
+  background: blueviolet;
+}
+.card-stats.card-stats4 .stat{
+  color: #F2BD08;
+}
+.border4{
+  border-left: 1px solid #F2BD08;
+  border-right: 1px solid #F2BD08;
 }
 
 
