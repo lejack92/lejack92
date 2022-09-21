@@ -440,7 +440,7 @@ body {
 .loadingBox {
     display: none;
     width: 42rem;
-    height: 28rem;
+    height: 26rem;
     margin: auto;
     position: relative;
     background: url(img/final_bg.jpg)center center /cover no-repeat;
