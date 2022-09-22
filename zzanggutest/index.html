@@ -498,7 +498,7 @@
         labelTitle = '알수없음';
       }
       var label = "<div id='bar_wrap'><div class='animal-label'>궁합점수 : </div>"
-      var bar = "<div class='bar-container'><div class='" + prediction[i].className + "-box'></div><div class='" + prediction[i].className + "-bar bar-percent' style='width: " + barWidth + "'><span class='d-block percent-text'>♥ " + Math.round(prediction[i].probability.toFixed(2) * 100) + "점 ♥</span></div></div></div>"
+      var bar = "<div class='bar-container'><span class='score-percent'>♥ " + Math.round(prediction[i].probability.toFixed(2) * 100) + "점 ♥</span><div class='" + prediction[i].className + "-box'></div><div class='" + prediction[i].className + "-bar bar-percent' style='width: " + barWidth + "'><span class='d-block percent-text'></span></div></div></div>"
       labelContainer.childNodes[i].innerHTML = label + bar;
 
       $('.loadingBox').html('.result-message').html(image + message + label + bar);
