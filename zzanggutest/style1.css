@@ -334,15 +334,15 @@ body {
 }
 
 .result-image {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 44%;
+    width: 40%;
 }
 
 .result-image img {
-    width: 80%;
+    width: 90%;
 }
 
 .result-title {
@@ -369,10 +369,10 @@ body {
     font-family: 'IM_Hyemin-Bold';
     transform: skew(-1deg);
     color: #000;
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding-top: 2rem;
     padding-right: 1.4rem;
-    line-height: 1.5;
+    line-height: 1.4;
     width: 80%;
 }
 
@@ -392,7 +392,7 @@ body {
 }
 
 #bar_wrap .bar-container{
-    width: 60%;
+    width: 52%;
     background: #FED2D3;
     border-radius: 0.4rem;
     overflow: hidden;
@@ -440,7 +440,7 @@ body {
 .loadingBox {
     display: none;
     width: 42rem;
-    height: 26rem;
+    height: 27rem;
     margin: auto;
     position: relative;
     background: url(img/final_bg.jpg)center center /cover no-repeat;
