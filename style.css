@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Happiness-Sans-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   text-transform: capitalize;
   transition: all .2s linear;
@@ -100,30 +107,30 @@ a {
   transform: translate(-50%, -50%);
   color: ghostwhite;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 50%;
+  font-family: 'Happiness-Sans-Title';
 }
 
 .banner .banner-text h1 {
-  font-size: 42px;
-  margin-bottom: 12px;
+  font-size: 48px;
+  margin-bottom: 14px;
   color: rgba(255, 255, 255, 0.95);
 }
 
 
 .banner .banner-text p {
-  font-size: 22px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.95);
   position: relative;
 }
 
 .banner .banner-text button {
+  font-size: 16px;
   background: none;
   border: 2px solid darkseagreen;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
-  margin-top: 15px;
+  margin-top: 26px;
   outline: none;
   cursor: pointer;
   transition: all .4s;
@@ -439,8 +446,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem 0 4rem;
 }
 
 .main_text1 .box-container .about_text {
@@ -505,16 +511,18 @@ a {
 
 .about-more a {
   display: inline-block;
-  padding: 10px 28px;
-  font-size: 1.5rem;
+  padding: 1rem 2.2rem;
+  font-size: 1.6rem;
   text-decoration: none;
-  background: #374d9a;
+  background: #0084FF;
   color: #fff;
   border-radius: 4px;
+  font-weight: 700;
 }
 
 .about-more a:hover {
-  opacity: 0.8;
+  background: #fff;
+  color: #0084FF;
 }
 
 

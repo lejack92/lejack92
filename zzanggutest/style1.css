@@ -1,27 +1,31 @@
-* {
-    text-transform: capitalize;
-    transition: all .2s linear;
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
-
 @font-face {
     font-family: 'IM_Hyemin-Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'SBAggroM';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'SangSangYoungestDaughter';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SangSangYoungestDaughter.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+* {
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
 
 html {
@@ -119,37 +123,34 @@ body {
     transform: translate(-50%, -50%);
     color: ghostwhite;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 50%;
-}
-
-.banner .banner-text div {
-    font-size: 42px;
-    margin-bottom: 12px;
+    font-family: 'Happiness-Sans-Title';
+  }
+  
+  .banner .banner-text > div {
+    font-size: 48px;
+    margin-bottom: 14px;
     color: rgba(255, 255, 255, 0.95);
-}
-
-.banner .banner-text div .ko_name {
-    font-size: 22px;
-}
-
-.banner .banner-text p {
-    font-size: 22px;
+  }
+  
+  
+  .banner .banner-text p {
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.95);
     position: relative;
-}
-
-.banner .banner-text button {
+  }
+  
+  .banner .banner-text button {
+    font-size: 16px;
     background: none;
     border: 2px solid darkseagreen;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
-    margin-top: 15px;
+    margin-top: 26px;
     outline: none;
     cursor: pointer;
     transition: all .4s;
-}
+  }
 
 .banner .banner-text button:hover {
     background-color: darkslategray;
@@ -556,7 +557,7 @@ body {
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .other-test button{
