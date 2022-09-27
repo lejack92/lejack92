@@ -523,10 +523,9 @@ body {
     color: #ffea00;
     text-align: center;
     font-family: 'SBAggroM', sans-serif;
-    padding: 1rem;
+    padding: 2.5rem 0;
     font-size: 1.1rem;
     line-height: 1.6;
-    margin-top: 2.5rem;
     opacity: 0.8;
     position: relative;
 }
@@ -534,29 +533,40 @@ body {
 .other-test {
     display: block;
     text-align: center;
-    overflow: hidden;
     margin: 0 auto;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2.5rem;
 }
 
 .other-test button{
     background: none;
     border: 0;
+    animation: jittery 4s infinite;
 }
+
+@keyframes jittery {
+    5%,50% {transform: scale(1);}
+    10% {transform: scale(0.9);}
+    15% {transform: scale(1.15);}
+    20% {transform: scale(1.15) rotate(-5deg);}
+    25% {transform: scale(1.15) rotate(5deg);}
+    30% {transform: scale(1.15) rotate(-3deg);}
+    35% {transform: scale(1.15) rotate(2deg);}
+    40% {transform: scale(1.15) rotate(0);}
+  }
 
 .other-test a{
     display: inline-block;
     font-family: 'SBAggroM', sans-serif;
-    padding: 10px 10px;
-    font-size: 1.5rem;
+    padding: 1.2rem 2rem 1rem;
+    font-size: 1.6rem;
     text-decoration: none;
-    background: #374d9a;
+    background: #0084FF;
     color: #fff;
     border-radius: 4px;
 }
-
 .other-test a:hover{
-    opacity: 0.8;
+    background: #fff;
+    color: #0084FF;
 }
 
 .last-text {
