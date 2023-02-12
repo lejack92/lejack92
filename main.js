@@ -29,3 +29,35 @@ $(document).ready(function () {
      });
 
 });
+
+/* rank swiper */
+var swiper = new Swiper(".rankSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 375
+    375: {
+      slidesPerView: 3,
+      spaceBetween: 110,
+    },
+     // when window width is >= 1100
+     1100: {
+      slidesPerView: 3,
+      spaceBetween: 10
+    },
+    // when window width is >= 1400
+    1400: {
+      slidesPerView: 4,
+      spaceBetween: 10
+    },
+    // when window width is >= 1700
+    1700: {
+      slidesPerView: 5,
+      spaceBetween: 10
+    },
+  }
+});
