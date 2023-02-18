@@ -46,9 +46,8 @@
     gtag('config', 'G-82Q1RZ200V');
   </script>
 
-<link rel="stylesheet" href="../reset.css" />
-<link rel="stylesheet" href="../test_common/common.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset1.css" />
+  <link rel="stylesheet" href="style1.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -120,7 +119,7 @@
   </div>
 
   <!-- Main -->
-  <div class="logo_img">
+  <div class="img2">
     <img src="img/zzanggu.png" alt="짱구">
   </div>
   <h1 class="suject">짱구 테스트</h1>
@@ -128,6 +127,9 @@
   <div class="file-upload">
     <div class="image-upload-wrap">
       <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" />
+      <div class="drag-text">
+
+      </div>
     </div>
     <span class="result-label">
       <div class="file-upload-content">
@@ -173,7 +175,7 @@
       </script>
 
 
-      <a href="https://www.instagram.com/" target="_blank"><img src="/test_common/img/insta.png" alt="인스타그램 공유"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="instagram"></a>
 
     </span>
 
@@ -245,7 +247,9 @@
     }
 
     function removeUpload() {
-      location.reload();
+      $('.remove-image').click(function () {
+        location.reload();
+      });
     }
   </script>
   <script type="text/javascript">
@@ -270,10 +274,10 @@
       maxPredictions = model.getTotalClasses();
       labelContainer = document.getElementById('label-container');
       for (let i = 0; i < 1; i++) {
-        var element = document.createElement("div")
-        element.classList.add("d-flex");
-        labelContainer.appendChild(element);
-      }
+                var element = document.createElement("div")
+                element.classList.add("d-flex");
+                labelContainer.appendChild(element);
+            }
     }
 
 
@@ -287,134 +291,134 @@
       var resultImage, resultTitle, resultMessage;
       switch (prediction[0].className) {
         case '1짱구':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu01.png' alt='짱구'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu01.png' alt='짱구'>"
           resultTitle = "짱구"
           resultMessage =
             "<p>직설적이고 솔직한 타입<br>관심 받는 것을 좋아하는 관종<br>정신없고 장난을 많이 치는 짱구와 당신은 찰떡궁합</p>";
           break;
         case '2봉미선':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu02.png' alt='봉미선'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu02.png' alt='봉미선'>"
           resultTitle = "봉미선"
           resultMessage =
             "<p>동네사람 모두가 아는 마당발<br>의욕넘치는 인싸 스타일<br>성격이 급하고 의욕 넘치는 짱구 엄마와 당신은 찰떡궁합</p>";
           break;
         case '3신형만':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu03.png' alt='신형만'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu03.png' alt='신형만'>"
           resultTitle = "신형만"
           resultMessage =
             "<p>배려의 아이콘<br>상대방의 눈치를 보고 소심한 스타일<br>따뜻하며 희생적인 짱구 아빠와 당신은 찰떡궁합</p>";
           break;
         case '4짱아':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu04.png' alt='짱아'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu04.png' alt='짱아'>"
           resultTitle = "짱아"
           resultMessage =
             "<p>행동대장<br>귀여움의 대명사<br>화려한 것을 좋아하고 지고 못사는 성격인 짱아와 당신은 찰떡궁합</p>";
           break;
         case '5흰둥이':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu05.png' alt='흰둥이'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu05.png' alt='흰둥이'>"
           resultTitle = "흰둥이"
           resultMessage =
             "<p>귀여움 담당<br>다 잘하는 모범생 스타일<br>희생 넘치는 행동으로 사람과 어울리는 것을 좋아하는 흰둥이와 당신은 찰떡궁합</p>";
           break;
         case '6철수':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu06.png' alt='철수'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu06.png' alt='철수'>"
           resultTitle = "철수"
           resultMessage =
             "<p>섬세하고 꼼꼼한 스타일<br>계획적이고 규칙을 준수<br>공감 능력이 부족하고 냉정한 스타일이지만 자기 할 일을 잘하는 철수와 당신은 찰떡궁합</p>";
           break;
         case '7유리':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu07.png' alt='유리'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu07.png' alt='유리'>"
           resultTitle = "유리"
           resultMessage =
             "<p>센스있는 타입<br>마음이 약하고 동정심이 많다<br>남들과 같이하는 행복을 추구하며 공감 능력이 높은 유리와 당신은 찰떡궁합</p>";
           break;
         case '8훈이':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu08.png' alt='훈이'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu08.png' alt='훈이'>"
           resultTitle = "훈이"
           resultMessage =
             "<p>순수하고 친절하다<br>남의 눈치를 보는 편<br>잘 웃고 배려심이 있는 타입의 훈이와 당신은 찰떡궁합</p>";
           break;
         case '9맹구':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu09.png' alt='맹구'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu09.png' alt='맹구'>"
           resultTitle = "맹구"
           resultMessage =
             "<p>자기만의 방식을 고수<br>망상을 좋아하고 호기심이 강하다<br>한 가지에 빠지면 그것에만 몰두하는 스타일인 맹구와 당신은 찰떡궁합</p>";
           break;
         case '10수지':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu10.png' alt='수지'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu10.png' alt='수지'>"
           resultTitle = "수지"
           resultMessage =
             "<p>해바라기 사랑을 추구<br>다른 사람에게 큰 관심이 없다<br>고급스러운 면모에 하고 싶은 것은 꼭 하는 수지와 당신은 찰떡궁합</p>";
           break;
         case '11원장 선생님':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu11.png' alt='원장 선생님'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu11.png' alt='원장 선생님'>"
           resultTitle = "원장 선생님"
           resultMessage =
             "<p>겉바속촉<br>친절하며 사소한 것을 잘 챙겨준다<br>예의를 중요하게 생각하며 선 넘는 것을 싫어하는 원장 선생님과 당신은 찰떡궁합</p>";
           break;
         case '12나미리 선생님':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu12.png' alt='나미리 선생님'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu12.png' alt='나미리 선생님'>"
           resultTitle = "나미리 선생님"
           resultMessage =
             "<p>자기 자신을 가장 사랑한다<br>꿈이 크고 목표가 확실한 타입<br>자존심이 강하고 분석을 통해 완벽을 추구하는 나미리 선생님과 당신은 찰떡궁합</p>";
           break;
         case '13옆집 아줌마':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu13.png' alt='옆집 아줌마'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu13.png' alt='옆집 아줌마'>"
           resultTitle = "옆집 아줌마"
           resultMessage =
             "<p>도를 넘은 활발함<br>말이 많은 오지랖 스타일<br>팩트폭력을 잘 하지만 친한 사람에게는 아주 친절한 옆집 아줌마와 당신은 찰떡궁합</p>";
           break;
         case '14채성아 선생님':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu14.png' alt='채성아 선생님'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu14.png' alt='채성아 선생님'>"
           resultTitle = "채성아 선생님"
           resultMessage =
             "<p>책임감으로 무장<br>소심하며 조용조용한 타입<br>아주 작은 것도 열심히 하는 성실한 채성아 선생님과 당신은 찰떡궁합</p>";
           break;
         case '15이슬이 누나':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu15.png' alt='이슬이 누나'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu15.png' alt='이슬이 누나'>"
           resultTitle = "이슬이 누나"
           resultMessage =
             "<p>첫사랑 이미지<br>모두에게 착하고 배려를 많이 하는 편<br>공감능력이 높으며 다른 사람의 말을 잘 들어주는 이슬이 누나와 당신은 찰떡궁합</p>";
           break;
         case '16오수':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu16.png' alt='오수'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu16.png' alt='오수'>"
           resultTitle = "오수"
           resultMessage =
             "<p>무리하더라도 도전<br>다른 사람 눈치를 안보는 타입<br>착하지만 종종 다른 사람을 귀찮게 하는 경향이 있는 오수와 당신은 찰떡궁합</p>";
           break;
         case '17치타':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu17.png' alt='치타'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu17.png' alt='치타'>"
           resultTitle = "치타"
           resultMessage =
             "<p>과한 자신감으로 충전<br>답답한 것을 세상에서 제일 싫어한다<br>스릴을 좋아하고 화끈한 성격의 치타와 당신은 찰떡궁합</p>";
           break;
         case '18마스크':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu18.png' alt='물음표'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu18.png' alt='물음표'>"
           resultTitle = "확인 불가"
           resultMessage =
             "<p>다른 사진으로<br>다시 시도하세요</p>";
           break;
         case '19사람이 아닙니다':
-          resultImage =
-            "<img src='img/zzanggu/zzanggu18.png' alt='물음표'>"
+        resultImage =
+        "<img src='img/zzanggu/zzanggu18.png' alt='물음표'>"
           resultTitle = "알 수 없음"
           resultMessage =
             "<p>다른 사진으로<br>다시 시도하세요</p>";
@@ -428,85 +432,82 @@
 
       var barWidth;
       for (let i = 0; i < maxPredictions; i++) {
-        if (prediction[i].probability.toFixed(2) > 0.1) {
+        if (prediction[i].probability.toFixed(2) > 0.1 ){
           barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
         }
         var labelTitle;
-        switch (prediction[i].className) {
-          case '1짱구':
-            labelTitle = "짱구"
-            break;
-          case '2봉미선':
-            labelTitle = "봉미선"
-            break;
-          case '3신형만':
-            labelTitle = "신형만"
-            break;
-          case '4짱아':
-            labelTitle = "짱아"
-            break;
-          case '5흰둥이':
-            labelTitle = "흰둥이"
-            break;
-          case '6철수':
-            labelTitle = "철수"
-            break;
-          case '7유리':
-            labelTitle = "유리"
-            break;
-          case '8훈이':
-            labelTitle = "훈이"
-            break;
-          case '9맹구':
-            labelTitle = "맹구"
-            break;
-          case '10수지':
-            labelTitle = "수지"
-            break;
-          case '11원장 선생님':
-            labelTitle = "원장 선생님"
-            break;
-          case '12나미리 선생님':
-            labelTitle = "나미리 선생님"
-            break;
-          case '13옆집 아줌마':
-            labelTitle = "옆집 아줌마"
-            break;
-          case '14채성아 선생님':
-            labelTitle = "채성아 선생님"
-            break;
-          case '15이슬이 누나':
-            labelTitle = "이슬이 누나"
-            break;
-          case '16오수':
-            labelTitle = "오수"
-            break;
-          case '17치타':
-            labelTitle = "치타"
-            break;
-          case '18마스크':
-            labelTitle = "확인 불가"
-            break;
-          case '19사람이 아닙니다':
-            labelTitle = "알 수 없음"
-            break;
-          default:
-            labelTitle = '알수없음';
-        }
-        var label = "<div id='bar_wrap'><div class='animal-label'>궁합점수 : </div>"
-        var bar = "<div class='bar-container'><span class='score-percent'>♥ " + Math.round(prediction[i].probability
-            .toFixed(2) * 100) + "점 ♥</span><div class='" + prediction[i].className + "-box'></div><div class='" +
-          prediction[i].className + "-bar bar-percent' style='width: " + barWidth +
-          "'><span class='d-block percent-text'></span></div></div></div>"
-        labelContainer.childNodes[i].innerHTML = label + bar;
-
-        $('.loadingBox').html('.result-message').html(image + message + label + bar);
+      switch (prediction[i].className) {
+        case '1짱구':
+         labelTitle = "짱구"
+          break;
+        case '2봉미선':
+         labelTitle = "봉미선"
+          break;
+        case '3신형만':
+          labelTitle = "신형만"
+          break;
+        case '4짱아':
+         labelTitle = "짱아"
+          break;
+        case '5흰둥이':
+          labelTitle = "흰둥이"
+          break;
+        case '6철수':
+          labelTitle = "철수"
+          break;
+        case '7유리':
+         labelTitle = "유리"
+          break;
+        case '8훈이':
+         labelTitle = "훈이"
+          break;
+        case '9맹구':
+         labelTitle = "맹구"
+          break;
+        case '10수지':
+         labelTitle = "수지"
+          break;
+        case '11원장 선생님':
+         labelTitle = "원장 선생님"
+          break;
+        case '12나미리 선생님':
+         labelTitle = "나미리 선생님"
+          break;
+        case '13옆집 아줌마':
+         labelTitle = "옆집 아줌마"
+          break;
+        case '14채성아 선생님':
+         labelTitle = "채성아 선생님"
+          break;
+        case '15이슬이 누나':
+         labelTitle = "이슬이 누나"
+          break;
+        case '16오수':
+          labelTitle = "오수"
+          break;
+        case '17치타':
+         labelTitle = "치타"
+          break;
+        case '18마스크':
+         labelTitle = "확인 불가"
+          break;
+        case '19사람이 아닙니다':
+          labelTitle = "알 수 없음"
+          break;
+        default:
+        labelTitle = '알수없음';
       }
+      var label = "<div id='bar_wrap'><div class='animal-label'>궁합점수 : </div>"
+      var bar = "<div class='bar-container'><span class='score-percent'>♥ " + Math.round(prediction[i].probability.toFixed(2) * 100) + "점 ♥</span><div class='" + prediction[i].className + "-box'></div><div class='" + prediction[i].className + "-bar bar-percent' style='width: " + barWidth + "'><span class='d-block percent-text'></span></div></div></div>"
+      labelContainer.childNodes[i].innerHTML = label + bar;
 
+      $('.loadingBox').html('.result-message').html(image + message + label + bar);
+      }
+                
     }
-    $('#bar_wrap').css('display', 'none');
+    $('#bar_wrap').css('display','none');
   </script>
-  <script src="../test_common/common.js"></script>
+  <script src="main1.js"></script>
 </body>
 <!--Copyright (c) 2021 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
