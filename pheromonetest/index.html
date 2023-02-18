@@ -46,9 +46,8 @@
     gtag('config', 'G-82Q1RZ200V');
   </script>
 
-  <link rel="stylesheet" href="../reset.css" />
-  <link rel="stylesheet" href="../test_common/common.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset1.css" />
+  <link rel="stylesheet" href="style1.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -125,12 +124,15 @@
   <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   <div>
-    <p class="precise">※ 페로몬 : 이성을 유혹하는 화학적 신호</p>
+    <p class="explain1">※ 페로몬 : 이성을 유혹하는 화학적 신호</p>
   </div>
 
   <div class="file-upload">
     <div class="image-upload-wrap">
       <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" />
+      <div class="drag-text">
+
+      </div>
     </div>
     <span class="result-label">
       <div class="file-upload-content">
@@ -139,7 +141,8 @@
         </div>
         <div class="result-message"></div>
         <div id="label-container"></div>
-        <div class="image-title-wrap"></div>
+        <div class="image-title-wrap">
+        </div>
         <div class="loadingBox">
           <div class="dim"></div>
           <div class="circle"></div>
@@ -172,7 +175,7 @@
       </script>
 
 
-      <a href="https://www.instagram.com/" target="_blank"><img src="/test_common/img/insta.png" alt="인스타그램 공유"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="instagram"></a>
 
     </span>
 
@@ -244,7 +247,9 @@
     }
 
     function removeUpload() {
-      location.reload();
+      $('.remove-image').click(function () {
+        location.reload();
+      });
     }
   </script>
   <script type="text/javascript">
@@ -358,7 +363,7 @@
 
     }
   </script>
-  <script src="../test_common/common.js"></script>
+  <script src="main1.js"></script>
 </body>
 <!--Copyright (c) 2021 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
