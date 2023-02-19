@@ -873,6 +873,11 @@ a {text-decoration: none;}
     margin: 2.5rem 0 0 0;
   }
 
+  .about-more a {
+    padding: 1.2rem 5.5rem;
+    font-size: 1.8rem;
+  }
+
   .faq_main {
     width: 80%;
   }
