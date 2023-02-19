@@ -1,7 +1,23 @@
 /* font */
 @font-face {font-family: 'Happiness-Sans-Title';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');font-weight: normal;font-style: normal;}
-@font-face {font-family: 'SDSamliphopangche_Outline';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');font-weight: normal;font-style: normal;}
-
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KorailRoundGothicBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* layout & setting */
 *{text-transform: capitalize;transition: all .2s linear;}
 html {font-size: min(2vw, 18px);}
@@ -117,254 +133,101 @@ a {text-decoration: none;}
 /* rank */
 .rankSwiper{margin: 5rem 0; width: 96%;}
 .rank-list .rank-box{display: flex; justify-content:center; align-items: center; height: 17rem; width: 19rem;}
-.rank-list .rank-box:hover .rank-img{transform: scale(1.3); position: absolute;}
-.rank-num{ font-family: 'SDSamliphopangche_Outline'; color: rgba(255, 255, 255, 0.8); width: 30%;}
+.rank-list .rank-box:hover .rank-img{transform: scale(1.2); position: absolute;}
+.rank-num{ font-family: 'SBAggroB',sans-serif; font-size: 14rem; color:#000; -webkit-text-stroke: 0.5rem #fff; width: 30%;}
 .rank-img{width: 70%; height: 14rem; background-position: center; background-repeat: no-repeat; background-size: contain;}
 .mo-rank-box{display: none;}
 
-.rank-num1{font-size: 15rem;}
+
 .rank-1st{background-image: url("img/likeabilitytest.jpg");}
-.rank-num2{font-size: 14rem;}
 .rank-2st{background-image: url("img/pokemonface.jpg");}
-.rank-num3{font-size: 14rem;}
 .rank-3st{background-image: url("img/pheromonetest.jpg");}
-.rank-num4{font-size: 14rem;}
 .rank-4st{background-image: url("img/zzanggutest.jpg");}
-.rank-num5{font-size: 14rem;}
 .rank-5st{background-image: url("img/nicknametest.jpg");}
 
 
 .swiper-button-next.rank-button-next,.swiper-button-prev.rank-button-prev{color: #fff; font-weight: bold;}
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{display: none;}
 
-
-.main_text0 {
-  width: 100%;
-}
-
-.main_text0 h2 {
-  padding-top: 5rem;
-  padding-left: 5rem;
-  font-size: 35px;
-  color: rgba(255, 255, 255, 0.95);
-  margin: 0 auto;
+section.enjoy{
   border-top: 8px solid #222;
 }
 
+.main_text0 {
+  width: 100%;
+  margin:  auto;
+}
+
+.main_text0 h2 {
+  width: 85%;
+  padding-top: 5rem;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 auto;
+}
+
 .main_text0 .contents1 {
-  padding-left: 5rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  width: 85%;
+  margin: 1rem auto 2rem;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.95);
 }
 
 .enjoy_wrap {
+  width: 82%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: auto;
 }
-
-
 .enjoy_menu {
-  display: flex;
-  margin-top: 3rem;
-  padding-bottom: 3rem;
+  margin: 3rem auto;
+  background-color: #fff;
+  border-bottom: 3px solid gray;
 }
-
-
-.enjoy_menu {
-  flex-grow: 1;
+.enjoy_menu:nth-child(1):hover{border-bottom: 3px solid #E71837;}
+.enjoy_menu:nth-child(2):hover{border-bottom: 3px solid blueviolet;}
+.enjoy_menu:nth-child(3):hover{border-bottom: 3px solid #f9320c;}
+.enjoy_menu:nth-child(4):hover{border-bottom: 3px solid #010a13;}
+.enjoy_menu:nth-child(5):hover{border-bottom: 3px solid #3564ac;}
+.enjoy_menu:nth-child(6):hover{border-bottom: 3px solid rgb(255, 7, 110);}
+.enjoy_menu:hover .enjoy_img{
+  transform: scale(1.1);
 }
-
-
-.enjoy_menu a {
-  display: block;
-  margin: 0 auto;
-  cursor: pointer;
+.enjoy_img_wrap{
+  overflow: hidden;
 }
+.enjoy_img{
+  width: 13.9rem;
+  height: 13.9rem;
+}
+.enjoy_menu:nth-child(1) .enjoy_img{background: url(/img/pheromonetest.jpg) center no-repeat;background-size: contain;}
+.enjoy_menu:nth-child(2) .enjoy_img{background: url(/img/zzanggutest.jpg) center no-repeat;background-size: contain;}
+.enjoy_menu:nth-child(3) .enjoy_img{background: url(/img/nicknametest.jpg) center no-repeat;background-size: contain;}
+.enjoy_menu:nth-child(4) .enjoy_img{background: url(/img/hiddenface.jpg) center no-repeat;background-size: contain;}
+.enjoy_menu:nth-child(5) .enjoy_img{background: url(/img/pokemonface.jpg) center no-repeat;background-size: contain;}
+.enjoy_menu:nth-child(6) .enjoy_img{background: url(/img/likeabilitytest.jpg) center no-repeat;background-size: contain;}
 
-.card {
-  display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 16rem 10rem 4rem;
-  grid-template-areas: "image""text""stats";
-  border-radius: 18px;
-  background: white;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+.enjoy_content{
   text-align: center;
-  transition: 0.5s ease;
-  cursor: pointer;
-  margin: 30px;
+  padding: 1rem;
 }
-
-.card-image {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;
-  background-position: center center;
-  border-bottom: 1px solid #cccccc;
+.enjoy_content h3 {
+  font-size: 1.2rem;
+  font-family: 'KorailRoundGothicBold',sans-serif;
+  margin: 0 auto 0.5rem;
 }
-
-.card-text {
-  grid-area: text;
-  margin: 1rem 1.5rem;
-}
-
-.card-text .date {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.card-text h3 {
-  font-size: 1.5rem;
-  color: #020200;
-  font-weight: 600;
-  margin: 10px auto;
-}
-
-.card-text p {
-  color: grey;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.3;
-  margin-top: 15px;
-}
-
-.card-stats {
-  grid-area: stats;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.card-stats .stat {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-}
-
-.card-stats .value {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-.card-stats .value sup {
-  font-size: 12px;
-}
-
-.card-stats .type {
-  font-size: 11px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.card:hover {
-  transform: scale(1.15);
-  box-shadow: rgb(255 255 255) 1px 1px 10px;
-}
-
-.card-image0 {
-  background-image: url("img/likeabilitytest.jpg");
-}
-
-.card-text .date0 {
-  color: rgb(255, 7, 110);
-}
-
-.card-stats0 {
-  background: rgb(255, 7, 110);
-}
-
-.border0 {
-  border-left: 1px solid rgb(172, 26, 87);
-  border-right: 1px solid rgb(172, 26, 87);
-}
-
-.card-image1 {
-  background-image: url("img/pokemonface.jpg");
-}
-.card-text .date1 {
-  color: #3564ac;
-}
-.card-stats1 {
-  background: #3564ac;
-}
-.card-stats.card-stats1 .stat {
-  color: #ffcb05;
-}
-.border1 {
-  border-left: 1px solid #ffcb05;
-  border-right: 1px solid #ffcb05;
-}
-
-.card-image2 {
-  background-image: url("img/hiddenface.jpg");
-}
-.card-text .date2 {
-  color: #010a13;
-}
-.card-stats2 {
-  background: #010a13;
-  border: 1px solid #cccccc;
-}
-.card-stats.card-stats2 .stat {
-  color: blanchedalmond;
-}
-.border2 {
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-}
-
-.card-image3 {
-  background-image: url("img/nicknametest.jpg");
-}
-.card-text .date3 {
-  color: #f9320c;
-}
-.card-stats3{
-  background: #f9320c;
-}
-
-.card-image4 {
-  background-image: url("img/zzanggutest.jpg");
-}
-.card-text .date4 {
-  color: blueviolet;
-}
-.card-stats4{
-  background: blueviolet;
-}
-.card-stats.card-stats4 .stat{
-  color: #F2BD08;
-}
-.border4{
-  border-left: 1px solid #F2BD08;
-  border-right: 1px solid #F2BD08;
-}
-
-.card-image5 {
-  background-image: url("img/pheromonetest.jpg");
-}
-.card-text .date5 {
-  color: #E71837;
-}
-.card-stats5{
-  background: #E71837;
-}
-.card-stats.card-stats5 .stat{
-  color: #FFFFFF;
-}
-.border5{
-  border-left: 1px solid #FFFFFF;
-  border-right: 1px solid #FFFFFF;
+.enjoy_menu:nth-child(1) .enjoy_content h3{color: #E71837;}
+.enjoy_menu:nth-child(2) .enjoy_content h3{color: blueviolet;}
+.enjoy_menu:nth-child(3) .enjoy_content h3{color: #f9320c;}
+.enjoy_menu:nth-child(4) .enjoy_content h3{color: #010a13;}
+.enjoy_menu:nth-child(5) .enjoy_content h3{color: #3564ac;}
+.enjoy_menu:nth-child(6) .enjoy_content h3{color: rgb(255, 7, 110);}
+.enjoy_content p {
+  font-size: 0.9rem;
+  color: #424242;
+  font-family: 'Pretendard-Regular',sans-serif;
 }
 
 
@@ -807,38 +670,28 @@ a {text-decoration: none;}
     z-index: 100;
   }
 
-  .enjoy_menu {
-    margin-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  .rank-num{font-size: 9rem; margin-top: 9rem; z-index: 1; width: 16%;}
+  .rank-img{width: 80%; height: 16rem;}
+
+  .enjoy_wrap {
+    width: 96%;
+  }
+  .enjoy_img{
+    width: 22rem;
+    height: 22rem;
+  }
+  .enjoy_content{
+    text-align: center;
+    padding: 1rem;
+  }
+  .enjoy_content h3 {
+    font-size: 2rem;
   }
 
-  .enjoy_menu:first-child{
-    margin-top: 4rem;
-  }
-  
-  .enjoy_menu:last-child{
-    padding-bottom: 4rem;
+  .enjoy_content p {
+    font-size: 1.6rem;
   }
 
-  .card {
-    grid-template-rows: 280px 140px 60px;
-  }
-
-  .card-text .date {
-    font-size: 20px;
-  }
-
-  .card-text h3 {
-    font-size: 28px;
-    margin: 5px;
-    width: auto;
-  }
-
-  .card-text p {
-    font-size: 15px;
-    margin-top: 15px;
-    line-height: 1.5;
-  }
 
   .w-btn {
     padding: 8px 12px;
