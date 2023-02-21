@@ -71,10 +71,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "iOgSLmmK3UCOZV-VPmwuYrFrOes4zl08c0mUfApqbCk"
 bing_site_verification   :
 naver_site_verification  : "ebe4032362a9a88bc59bdd5a3539062e0945123f"
-yandex_site_verification :
+yandex_site_verification : "00b86d5cfe614c0e"
 baidu_site_verification  :
 
 # Social Sharing
