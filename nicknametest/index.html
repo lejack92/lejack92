@@ -48,9 +48,12 @@
 
   <link rel="stylesheet" href="/reset.css">
   <link rel="stylesheet" href="/common/common.css">
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -275,10 +278,10 @@
       maxPredictions = model.getTotalClasses();
       labelContainer = document.getElementById('label-container');
       for (let i = 0; i < 1; i++) {
-                var element = document.createElement("div")
-                element.classList.add("d-flex");
-                labelContainer.appendChild(element);
-            }
+        var element = document.createElement("div")
+        element.classList.add("d-flex");
+        labelContainer.appendChild(element);
+      }
     }
 
 
@@ -428,152 +431,155 @@
 
       var barWidth;
       for (let i = 0; i < maxPredictions; i++) {
-        if (prediction[i].probability.toFixed(2) > 0.1 ){
+        if (prediction[i].probability.toFixed(2) > 0.1) {
           barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
         }
         var labelTitle;
-      switch (prediction[i].className) {
-        case '1선비':
-         labelTitle = "<p style='border-bottom:solid; color:#FF7F00;'>선비</p>"
-          break;
-        case '2헬창':
-         labelTitle = "<p style='border-bottom:solid; color:#0000FF;'>헬창</p>"
-          break;
-        case '3권모술수':
-          labelTitle = "<p style='border-bottom:solid; color:#8B00FF;'>권모술수</p>"
-          break;
-        case '4돌+아이':
-         labelTitle = "<p style='border-bottom:solid; color:#A374DB;'>돌+아이</p>"
-          break;
-        case '5차도남':
-          labelTitle = "<p style='border-bottom:solid; color:#D3D3D3;'>차도남</p>"
-          break;
-        case '6첫사랑':
-          labelTitle = "<p style='border-bottom:solid; color:#B8F8FB;'>첫사랑</p>"
-          break;
-        case '7햄스터':
-         labelTitle = "<p style='border-bottom:solid; color:#FFC0CB;'>햄스터</p>"
-          break;
-        case '8잼민이':
-         labelTitle = "<p style='border-bottom:solid; color:#B58D6E;'>잼민이</p>"
-          break;
-        case '9순댕이':
-         labelTitle = "<p style='border-bottom:solid; color:#8977AD;'>순댕이</p>"
-          break;
-        case '10똑순이':
-         labelTitle = "<p style='border-bottom:solid; color:#808080;'>똑순이</p>"
-          break;
-        case '11귀염둥이':
-         labelTitle = "<p style='border-bottom:solid; color:#FF7E00;'>귀염둥이</p>"
-          break;
-        case '12분위기 메이커':
-         labelTitle = "<p style='border-bottom:solid; color:#99CCFF;'>분위기 메이커</p>"
-          break;
-        case '13댕댕이':
-         labelTitle = "<p style='border-bottom:solid; color:#FFAE69;'>댕댕이</p>"
-          break;
-        case '14사장님':
-         labelTitle = "<p style='border-bottom:solid; color:#C3FA6E;'>사장님</p>"
-          break;
-        case '15자유로운 영혼':
-         labelTitle = "<p style='border-bottom:solid; color:#FFC0CB;'>자유로운 영혼</p>"
-          break;
-        case '16예쁜이':
-          labelTitle = "<p style='border-bottom:solid; color:#ABCDED;'>예쁜이</p>"
-          break;
-        case '17인간 샤넬':
-         labelTitle = "<p style='border-bottom:solid; color:#2a676e;'>인간 샤넬</p>"
-          break;
-        case '18우당탕탕':
-         labelTitle = "<p style='border-bottom:solid; color:#FF3399;'>우당탕탕</p>"
-          break;
-        case '19장난꾸러기':
-          labelTitle = "<p style='border-bottom:solid; color:#FFCCE6;'>장난꾸러기</p>"
-          break;
-        case '20차도녀':
-         labelTitle = "<p style='border-bottom:solid; color:#009900;'>차도녀</p>"
-          break;
-        case '21막둥이':
-          labelTitle = "<p style='border-bottom:solid; color:#FFD400;'>막둥이</p>"
-          break;
-        case '22미소천사':
-         labelTitle = "<p style='border-bottom:solid; color:#B97F69;'>미소 천사</p>"
-          break;
-        case '23날쌘돌이':
-         labelTitle = "<p style='border-bottom:solid; color:#D3D3D3;'>날쌘돌이</p>"
-          break;
-        case '24동네형':
-          labelTitle = "<p style='border-bottom:solid; color:#F3819A;'>동네형</p>"
-          break;
-        case '25열정MAX':
-         labelTitle = "<p style='border-bottom:solid; color:#88CA8F;'>열정 MAX</p>"
-          break;
-        case '26밥 잘 사주는 예쁜 누나':
-          labelTitle = "<p style='border-bottom:solid; color:#99CAE3;'>밥 잘 사주는 예쁜 누나</p>"
-          break;
-        case '27왕눈이':
-         labelTitle = "<p style='border-bottom:solid; color:#C39363;'>왕눈이</p>"
-          break;
-        case '28놀부':
-          labelTitle = "<p style='border-bottom:solid; color:#40E0D0;'>놀부</p>"
-          break;
-        case '29과즙녀':
-         labelTitle = "<p style='border-bottom:solid; color:#32EBD0;'>과즙녀</p>"
-          break;
-        case '30꼬부기':
-         labelTitle = "<p style='border-bottom:solid; color:#5F96AA;'>꼬부기</p>"
-          break;
-        case '31아기 고양이':
-          labelTitle = "<p style='border-bottom:solid; color:#DCF7CA;'>아기 고양이</p>"
-          break;
-        case '32교회 오빠':
-         labelTitle = "<p style='border-bottom:solid; color:#EBE8F9;'>교회 오빠</p>"
-          break;
-        case '33집순이':
-          labelTitle = "<p style='border-bottom:solid; color:#CFB182;'>집순이</p>"
-          break;
-        case '34곰탱이':
-         labelTitle = "<p style='border-bottom:solid; color:#FFF0C4;'>곰탱이</p>"
-          break;
-        case '35이빨 부자':
-         labelTitle = "<p style='border-bottom:solid; color:#E19256;'>이빨 부자</p>"
-          break;
-        case '36패왕색':
-          labelTitle = "<p style='border-bottom:solid; color:#F47932;'>패왕색</p>"
-          break;
-        case '37공룡':
-          labelTitle = "<p style='border-bottom:solid; color:#F8D0D9;'>공룡</p>"
-          break;
-        case '38엉뚱이':
-          labelTitle = "<p style='border-bottom:solid; color:#E96746;'>엉뚱이</p>"
-          break;
-        case '39안경 선배':
-          labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>안경 선배</p>"
-          break;
-        case '40삐약이':
-          labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>삐약이</p>"
-          break;
-        case '41순두부':
-          labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>순두부</p>"
-          break;
-        case '42신비주의':
-          labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>신비주의</p>"
-          break;
-        case '43사람이 아닙니다':
-          labelTitle = "사람이 아닙니다. <br> 다른 사진으로 다시 시도하세요.";
-          break;
-        default:
-        labelTitle = '알수없음';
-      }
-      var label = "<div id='bar_wrap'><div class='animal-label'>싱크로율</div>"
-      var bar = "<div class='bar-container'><div class='" + prediction[i].className + "-box'></div><div class='" + prediction[i].className + "-bar bar-percent' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div></div>"
-      labelContainer.childNodes[i].innerHTML = label + bar;
+        switch (prediction[i].className) {
+          case '1선비':
+            labelTitle = "<p style='border-bottom:solid; color:#FF7F00;'>선비</p>"
+            break;
+          case '2헬창':
+            labelTitle = "<p style='border-bottom:solid; color:#0000FF;'>헬창</p>"
+            break;
+          case '3권모술수':
+            labelTitle = "<p style='border-bottom:solid; color:#8B00FF;'>권모술수</p>"
+            break;
+          case '4돌+아이':
+            labelTitle = "<p style='border-bottom:solid; color:#A374DB;'>돌+아이</p>"
+            break;
+          case '5차도남':
+            labelTitle = "<p style='border-bottom:solid; color:#D3D3D3;'>차도남</p>"
+            break;
+          case '6첫사랑':
+            labelTitle = "<p style='border-bottom:solid; color:#B8F8FB;'>첫사랑</p>"
+            break;
+          case '7햄스터':
+            labelTitle = "<p style='border-bottom:solid; color:#FFC0CB;'>햄스터</p>"
+            break;
+          case '8잼민이':
+            labelTitle = "<p style='border-bottom:solid; color:#B58D6E;'>잼민이</p>"
+            break;
+          case '9순댕이':
+            labelTitle = "<p style='border-bottom:solid; color:#8977AD;'>순댕이</p>"
+            break;
+          case '10똑순이':
+            labelTitle = "<p style='border-bottom:solid; color:#808080;'>똑순이</p>"
+            break;
+          case '11귀염둥이':
+            labelTitle = "<p style='border-bottom:solid; color:#FF7E00;'>귀염둥이</p>"
+            break;
+          case '12분위기 메이커':
+            labelTitle = "<p style='border-bottom:solid; color:#99CCFF;'>분위기 메이커</p>"
+            break;
+          case '13댕댕이':
+            labelTitle = "<p style='border-bottom:solid; color:#FFAE69;'>댕댕이</p>"
+            break;
+          case '14사장님':
+            labelTitle = "<p style='border-bottom:solid; color:#C3FA6E;'>사장님</p>"
+            break;
+          case '15자유로운 영혼':
+            labelTitle = "<p style='border-bottom:solid; color:#FFC0CB;'>자유로운 영혼</p>"
+            break;
+          case '16예쁜이':
+            labelTitle = "<p style='border-bottom:solid; color:#ABCDED;'>예쁜이</p>"
+            break;
+          case '17인간 샤넬':
+            labelTitle = "<p style='border-bottom:solid; color:#2a676e;'>인간 샤넬</p>"
+            break;
+          case '18우당탕탕':
+            labelTitle = "<p style='border-bottom:solid; color:#FF3399;'>우당탕탕</p>"
+            break;
+          case '19장난꾸러기':
+            labelTitle = "<p style='border-bottom:solid; color:#FFCCE6;'>장난꾸러기</p>"
+            break;
+          case '20차도녀':
+            labelTitle = "<p style='border-bottom:solid; color:#009900;'>차도녀</p>"
+            break;
+          case '21막둥이':
+            labelTitle = "<p style='border-bottom:solid; color:#FFD400;'>막둥이</p>"
+            break;
+          case '22미소천사':
+            labelTitle = "<p style='border-bottom:solid; color:#B97F69;'>미소 천사</p>"
+            break;
+          case '23날쌘돌이':
+            labelTitle = "<p style='border-bottom:solid; color:#D3D3D3;'>날쌘돌이</p>"
+            break;
+          case '24동네형':
+            labelTitle = "<p style='border-bottom:solid; color:#F3819A;'>동네형</p>"
+            break;
+          case '25열정MAX':
+            labelTitle = "<p style='border-bottom:solid; color:#88CA8F;'>열정 MAX</p>"
+            break;
+          case '26밥 잘 사주는 예쁜 누나':
+            labelTitle = "<p style='border-bottom:solid; color:#99CAE3;'>밥 잘 사주는 예쁜 누나</p>"
+            break;
+          case '27왕눈이':
+            labelTitle = "<p style='border-bottom:solid; color:#C39363;'>왕눈이</p>"
+            break;
+          case '28놀부':
+            labelTitle = "<p style='border-bottom:solid; color:#40E0D0;'>놀부</p>"
+            break;
+          case '29과즙녀':
+            labelTitle = "<p style='border-bottom:solid; color:#32EBD0;'>과즙녀</p>"
+            break;
+          case '30꼬부기':
+            labelTitle = "<p style='border-bottom:solid; color:#5F96AA;'>꼬부기</p>"
+            break;
+          case '31아기 고양이':
+            labelTitle = "<p style='border-bottom:solid; color:#DCF7CA;'>아기 고양이</p>"
+            break;
+          case '32교회 오빠':
+            labelTitle = "<p style='border-bottom:solid; color:#EBE8F9;'>교회 오빠</p>"
+            break;
+          case '33집순이':
+            labelTitle = "<p style='border-bottom:solid; color:#CFB182;'>집순이</p>"
+            break;
+          case '34곰탱이':
+            labelTitle = "<p style='border-bottom:solid; color:#FFF0C4;'>곰탱이</p>"
+            break;
+          case '35이빨 부자':
+            labelTitle = "<p style='border-bottom:solid; color:#E19256;'>이빨 부자</p>"
+            break;
+          case '36패왕색':
+            labelTitle = "<p style='border-bottom:solid; color:#F47932;'>패왕색</p>"
+            break;
+          case '37공룡':
+            labelTitle = "<p style='border-bottom:solid; color:#F8D0D9;'>공룡</p>"
+            break;
+          case '38엉뚱이':
+            labelTitle = "<p style='border-bottom:solid; color:#E96746;'>엉뚱이</p>"
+            break;
+          case '39안경 선배':
+            labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>안경 선배</p>"
+            break;
+          case '40삐약이':
+            labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>삐약이</p>"
+            break;
+          case '41순두부':
+            labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>순두부</p>"
+            break;
+          case '42신비주의':
+            labelTitle = "<p style='border-bottom:solid; color:#F6E383;'>신비주의</p>"
+            break;
+          case '43사람이 아닙니다':
+            labelTitle = "사람이 아닙니다. <br> 다른 사진으로 다시 시도하세요.";
+            break;
+          default:
+            labelTitle = '알수없음';
+        }
+        var label = "<div id='bar_wrap'><div class='animal-label'>싱크로율</div>"
+        var bar = "<div class='bar-container'><div class='" + prediction[i].className + "-box'></div><div class='" +
+          prediction[i].className + "-bar bar-percent' style='width: " + barWidth +
+          "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) +
+          "%</span></div></div></div>"
+        labelContainer.childNodes[i].innerHTML = label + bar;
 
-      $('.loadingBox').html('.result-message').html(title + label + bar);
+        $('.loadingBox').html('.result-message').html(title + label + bar);
       }
-                
+
     }
-    $('#bar_wrap').css('display','none');
+    $('#bar_wrap').css('display', 'none');
   </script>
   <script src="/common/common.js"></script>
 </body>

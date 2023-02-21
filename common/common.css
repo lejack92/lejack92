@@ -308,15 +308,19 @@ a {
         flex-direction: column;
         align-items: center;
         position: absolute;
+        padding: 10px 0;
+        left: 0;
         right: 0;
         top: 100%;
-    }
+        background: rgba(0, 0, 0, .95);
+      }
+    
     .navbar_menu li {
-        text-align: right;
-        padding: 10px 0;
-        width: 100%;
-        margin-right: 50px;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
     }
+    
     .banner ul li a {
         font-size: 2rem;
         padding: 3px;
@@ -333,9 +337,7 @@ a {
     .navbar_toggleBtn:hover {
         color: #d49466;
     }
-    .navbar_toggleBtn:focus {
-        color: #d49466;
-    }
+
     .navbar_menu.active {
         display: flex;
         z-index: 100;

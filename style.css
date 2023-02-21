@@ -174,7 +174,7 @@ section.enjoy{
 }
 
 .enjoy_wrap {
-  width: 82%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,8 +190,6 @@ section.enjoy{
 .enjoy_menu:nth-child(2):hover{border-bottom: 3px solid blueviolet;}
 .enjoy_menu:nth-child(3):hover{border-bottom: 3px solid #f9320c;}
 .enjoy_menu:nth-child(4):hover{border-bottom: 3px solid #010a13;}
-.enjoy_menu:nth-child(5):hover{border-bottom: 3px solid #3564ac;}
-.enjoy_menu:nth-child(6):hover{border-bottom: 3px solid rgb(255, 7, 110);}
 .enjoy_menu:hover .enjoy_img{
   transform: scale(1.1);
 }
@@ -206,8 +204,6 @@ section.enjoy{
 .enjoy_menu:nth-child(2) .enjoy_img{background: url(/img/zzanggutest.jpg) center no-repeat;background-size: contain;}
 .enjoy_menu:nth-child(3) .enjoy_img{background: url(/img/nicknametest.jpg) center no-repeat;background-size: contain;}
 .enjoy_menu:nth-child(4) .enjoy_img{background: url(/img/hiddenface.jpg) center no-repeat;background-size: contain;}
-.enjoy_menu:nth-child(5) .enjoy_img{background: url(/img/pokemonface.jpg) center no-repeat;background-size: contain;}
-.enjoy_menu:nth-child(6) .enjoy_img{background: url(/img/likeabilitytest.jpg) center no-repeat;background-size: contain;}
 
 .enjoy_content{
   text-align: center;
@@ -222,8 +218,6 @@ section.enjoy{
 .enjoy_menu:nth-child(2) .enjoy_content h3{color: blueviolet;}
 .enjoy_menu:nth-child(3) .enjoy_content h3{color: #f9320c;}
 .enjoy_menu:nth-child(4) .enjoy_content h3{color: #010a13;}
-.enjoy_menu:nth-child(5) .enjoy_content h3{color: #3564ac;}
-.enjoy_menu:nth-child(6) .enjoy_content h3{color: rgb(255, 7, 110);}
 .enjoy_content p {
   font-size: 0.9rem;
   color: #424242;
@@ -630,15 +624,17 @@ section.enjoy{
     flex-direction: column;
     align-items: center;
     position: absolute;
+    padding: 10px 0;
+    left: 0;
     right: 0;
     top: 100%;
+    background: rgba(0, 0, 0, .95);
   }
 
   .navbar_menu li {
-    text-align: right;
+    text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-right: 50px;
   }
 
   .banner ul li a {
@@ -658,10 +654,6 @@ section.enjoy{
   }
 
   .navbar_toggleBtn:hover {
-    color: #d49466;
-  }
-
-  .navbar_toggleBtn:focus {
     color: #d49466;
   }
 
@@ -724,11 +716,6 @@ section.enjoy{
     height: 100%;
     max-width: 330px;
     margin: 2.5rem 0 0 0;
-  }
-
-  .about-more a {
-    padding: 1.2rem 5.5rem;
-    font-size: 1.8rem;
   }
 
   .faq_main {
