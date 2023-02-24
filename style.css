@@ -397,7 +397,7 @@ section.enjoy{
   background: #0084FF;
   color: #fff;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .about-more a:hover {
@@ -729,15 +729,9 @@ section.enjoy{
     max-width: 330px;
     margin: 2.5rem 0 0 0;
   }
-
-  .about-more a {
-      padding: 1.2rem 3rem;
-      font-size: 1.8rem;
-      text-decoration: none;
-      background: #0084FF;
-      color: #fff;
-      border-radius: 4px;
-      font-weight: 500;
+  .about-more a{
+    padding: 1.4rem 6rem;
+    font-size: 2rem;
   }
 
   .faq_main {
@@ -745,7 +739,7 @@ section.enjoy{
   }
 
   .faq_main label {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .profile .connect li {
