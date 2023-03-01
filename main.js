@@ -16,7 +16,7 @@ $(document).ready(function () {
 
         $('html, body').animate({
 
-                scrollTop: $($(this).attr('href')).offset().top -100,
+          scrollTop: $($(this).attr('href')).offset().top - $('.header').height(),
 
             },
             500,
