@@ -168,26 +168,23 @@ a {
 
 /* test section bottom */
 .remove-image {
-    background-color: #0055ff;
-    border: 2px dashed blanchedalmond;
-    border-radius: 30px;
-    box-shadow: #422800 4px 4px 0 0;
-    color: blanchedalmond;
+    background-color: #E64B7B;
+    border: 2px dashed #fff;
+    border-radius: 30rem;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
-    font-size: 1.2rem;
-    padding: 0 18px;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem 1rem;
     margin: 3rem 0 0;
-    line-height: 50px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     font-family: 'SBAggroM', sans-serif;
 }
 .remove-image:hover {
-    background-color: #0076fb;
-    border: 2px solid blanchedalmond;
+    border: 2px solid #fff;
 }
 
 .hashtags {
