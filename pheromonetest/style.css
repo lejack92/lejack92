@@ -82,6 +82,7 @@
     margin: auto;
     z-index: 1;
     border: 0.3rem solid #f8c1f8;
+    background: #000;
 }
 
 .file-upload-image {
