@@ -437,6 +437,9 @@ a {
         font-size: 2.2rem;
     }
 
+    .share-btn {
+        margin-top: 1.6rem;
+    }
     .share-btn a{
         font-size: 1.7rem;
         padding: 1rem 2rem 0.8rem;
