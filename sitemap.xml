@@ -1,252 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
-
 <url>
-  <loc>https://alphaface-ai.com/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>1.00</priority>
+   <loc>https://alphaface-ai.com/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/facembti/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/facembti/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/pokemonface/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/pokemonface/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/likeabilitytest/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/likeabilitytest/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/pheromonetest/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/pheromonetest/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/hiddenface/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/hiddenface/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/nicknametest/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/nicknametest/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/zzanggutest/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/zzanggutest/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/blog/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/policy/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/policy/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://alphaface-ai.com/blog/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.6400</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/categories/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/feed.xml</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/tags/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/categories/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/2022-08-13-27/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/tags/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/36/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/2022-08-13-27/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/35/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/37/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/34/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/36/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/33/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/35/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/32/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/34/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/31/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/33/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/30/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/32/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/29/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/31/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/28/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/30/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/26/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/29/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/25/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/28/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/24/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/26/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/23/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/25/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/22/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/24/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/21/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/23/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/20/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/22/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/19/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/21/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/18/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/20/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/17/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/19/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/16/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/18/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/15/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/17/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/14/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/16/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/13/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/15/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/12/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/14/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/11/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/13/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/10/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/12/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/09/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/11/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/08/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/10/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/07/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/alphaface/09/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/06/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/08/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/05/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/07/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/04/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/06/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/03/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/05/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/ai/02/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/04/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
 <url>
-  <loc>https://alphaface-ai.com/alphaface/01/</loc>
-  <lastmod>2023-03-15T14:44:37+00:00</lastmod>
-  <priority>0.64</priority>
+   <loc>https://alphaface-ai.com/ai/03/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
 </url>
-
-
+<url>
+   <loc>https://alphaface-ai.com/ai/02/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://alphaface-ai.com/alphaface/01/</loc>
+   <lastmod>2023-03-20T12:05:43+00:00</lastmod>
+   <changefreq>hourly</changefreq>
+   <priority>0.5120</priority>
+</url>
 </urlset>
