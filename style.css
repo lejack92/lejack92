@@ -186,7 +186,7 @@ section.enjoy{
   margin: auto;
 }
 .enjoy_menu {
-  margin: 3rem auto;
+  margin: 3rem auto 0;
   background-color: #fff;
   border-bottom: 3px solid gray;
 }
@@ -327,7 +327,7 @@ section.enjoy{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 0 4rem;
+  padding: 3rem 0 2rem;
 }
 
 .main_text1 .box-container .about_text {
@@ -382,7 +382,7 @@ section.enjoy{
   text-align: center;
   overflow: hidden;
   margin: 0 auto;
-  margin-bottom: 1.8rem;
+  margin: 3rem auto 1.8rem;
 }
 
 .about-more button {
