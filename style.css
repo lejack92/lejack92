@@ -145,8 +145,8 @@ a {text-decoration: none;}
 
 .rank-1st{background-image: url("img/facembti.jpg");}
 .rank-2st{background-image: url("img/pokemonface.jpg");}
-.rank-3st{background-image: url("img/likeabilitytest.jpg");}
-.rank-4st{background-image: url("img/pheromonetest.jpg");}
+.rank-3st{background-image: url("img/solotest.jpg");}
+.rank-4st{background-image: url("img/likeabilitytest.jpg");}
 .rank-5st{background-image: url("img/hiddenface.jpg");}
 
 
@@ -186,7 +186,7 @@ section.enjoy{
   margin: auto;
 }
 .enjoy_menu {
-  margin: 3rem auto 0;
+  margin: 3rem 0 0;
   background-color: #fff;
   border-bottom: 3px solid gray;
 }
@@ -197,6 +197,7 @@ section.enjoy{
 .enjoy_menu.pokemon_menu:hover{border-bottom: 3px solid #374d9a;}
 .enjoy_menu.likeability_menu:hover{border-bottom: 3px solid #ff3399;}
 .enjoy_menu.hiddenface_menu:hover{border-bottom: 3px solid #1a4568;}
+.enjoy_menu.solo_menu:hover{border-bottom: 3px solid #fc0c65;}
 .enjoy_menu:hover .enjoy_img{
   transform: scale(1.1);
 }
@@ -214,6 +215,7 @@ section.enjoy{
 .enjoy_menu.pokemon_menu .enjoy_img{background: url(/img/pokemonface.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.likeability_menu .enjoy_img{background: url(/img/likeabilitytest.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.hiddenface_menu .enjoy_img{background: url(/img/hiddenface.jpg) center no-repeat;background-size: cover;}
+.enjoy_menu.solo_menu .enjoy_img{background: url(/img/solotest.jpg) center no-repeat;background-size: cover;}
 
 .enjoy_content{
   text-align: center;
@@ -231,6 +233,8 @@ section.enjoy{
 .enjoy_menu.pokemon_menu .enjoy_content h3{color: #374d9a;}
 .enjoy_menu.likeability_menu .enjoy_content h3{color: #ff3399;}
 .enjoy_menu.hiddenface_menu .enjoy_content h3{color: #1a4568;}
+.enjoy_menu.solo_menu .enjoy_content h3{color: #fc0c65;}
+
 .enjoy_content p {
   font-size: 0.9rem;
   color: #424242;
