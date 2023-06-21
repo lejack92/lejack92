@@ -55,8 +55,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
-  <!-- Go to www.addthis.com/dashboard to customize your tools -->
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-614bfbd87fbedad0"></script>
 
 </head>
 
@@ -179,15 +177,27 @@
           new ShareNaver.makeButton({
             "type": "d"
           });
-        </script>
-  
-  
-        <a href="https://www.instagram.com/" target="_blank"><img src="/common/img/insta.png" alt="인스타그램 공유"></a>
-  
-      </span>
-  
-      <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <span class="addthis_inline_share_toolbox_y39o"></span>
+
+          function shareTwitter() {
+          var sendText = "관상 MBTI";
+          var sendUrl = "https://alphaface-ai.com/facembti/";
+          window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
+        }
+
+        function shareFacebook() {
+          var sendUrl = "https://alphaface-ai.com/facembti/";
+          window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
+        }
+      </script>
+
+
+      <a href="https://www.instagram.com/" target="_blank"><img src="/common/img/insta.png" alt="인스타그램 공유"></a>
+
+      <a id="btnTwitter" class="link-icon twitter" href="javascript:shareTwitter();"></a>
+      <a id="btnFacebook" class="link-icon facebook" href="javascript:shareFacebook();"></a>
+      <!-- <a id="btnKakao" class="link-icon kakao" href="javascript:shareKakao();"></a> -->
+
+      </span>+
   
     </div>
 
