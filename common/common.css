@@ -332,6 +332,7 @@ a {
   color: #fff;
   border-radius: 2rem;
   border: 0.1rem solid #fff;
+  cursor: pointer;
 }
 
 .share-btn a i {
