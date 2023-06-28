@@ -193,6 +193,15 @@
           }
         </script>
 
+        <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script type='text/javascript'>
+          Kakao.init('da983c06b8fdbdfa8f6cdbc3e768cb81')
+          Kakao.Link.createCustomButton({
+            container: '#kakao-link-btn',
+            templateId: '95240'
+          });
+        </script>
+
 
         <a href="https://www.instagram.com/" target="_blank"><img src="/common/img/insta.png" alt="인스타그램 공유"></a>
 
@@ -202,14 +211,6 @@
           공유하기
         </a>
 
-        <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-        <script type='text/javascript'>
-          Kakao.init('da983c06b8fdbdfa8f6cdbc3e768cb81')
-          Kakao.Link.createCustomButton({
-            container: '#kakao-link-btn',
-            templateId: '95240'
-          });
-        </script>
 
       </span>
 
