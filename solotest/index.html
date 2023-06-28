@@ -167,15 +167,16 @@
     </div>
 
     <div class="hashtags_1">
-      <span>#</span> <h3>#hashtags #follow #like<br>#솔로 테스트 #솔로 판독기 #나는 솔로</h3>
+      <span>#</span>
+      <h3>#hashtags #follow #like<br>#솔로 테스트 #솔로 판독기 #나는 솔로</h3>
     </div>
 
     <div class="let-share">
       <p>공유하기 ↯</p>
     </div>
-  
+
     <div class="share">
-  
+
       <span class="naver">
         <script type="text/javascript" src="https://ssl.pstatic.net/share/js/naver_sharebutton.js"></script>
         <script type="text/javascript">
@@ -184,43 +185,80 @@
           });
 
           function shareTwitter() {
-          var sendText = "AI 솔로 테스트";
-          var sendUrl = "https://alphaface-ai.com/solotest/";
-          window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
-        }
+            var sendText = "AI 솔로 테스트";
+            var sendUrl = "https://alphaface-ai.com/solotest/";
+            window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
+          }
 
-        function shareFacebook() {
-          var sendUrl = "https://alphaface-ai.com/solotest/";
-          window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
-        }
+          function shareFacebook() {
+            var sendUrl = "https://alphaface-ai.com/solotest/";
+            window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
+          }
+        </script>
 
-      </script>
 
+        <a href="https://www.instagram.com/" target="_blank"><img src="/common/img/insta.png" alt="인스타그램 공유"></a>
 
-      <a href="https://www.instagram.com/" target="_blank"><img src="/common/img/insta.png" alt="인스타그램 공유"></a>
+        <a id="btnTwitter" class="link-icon twitter" href="javascript:shareTwitter();"></a>
+        <a id="btnFacebook" class="link-icon facebook" href="javascript:shareFacebook();"></a>
+        <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.2.0/kakao.min.js"
+          integrity="sha384-x+WG2i7pOR+oWb6O5GV5f1KN2Ko6N7PTGPS7UlasYWNxZMKQA63Cj/B2lbUmUfuC" crossorigin="anonymous">
+        </script>
+        <script>
+          Kakao.init('da983c06b8fdbdfa8f6cdbc3e768cb81'); // 사용하려는 앱의 JavaScript 키 입력
+        </script>
 
-      <a id="btnTwitter" class="link-icon twitter" href="javascript:shareTwitter();"></a>
-      <a id="btnFacebook" class="link-icon facebook" href="javascript:shareFacebook();"></a>
-      <!-- <a id="btnKakao" class="link-icon kakao" href="javascript:shareKakao();"></a> -->
+        <a id="kakaotalk-sharing-btn" href="javascript:;">
+          <img src="/common/img/kakao.png" alt="카카오톡 공유 보내기 버튼" />
+        </a>
+
+        <script>
+          Kakao.Share.createDefaultButton({
+            container: '#kakaotalk-sharing-btn',
+            objectType: 'feed',
+            content: {
+              title: 'AI 솔로 테스트 - 알파페이스',
+              description: '알파페이스에서 AI 관상 테스트를 체험하세요. 사람 외모를 학습한 AI가 관상 MBTI, 호감도, 포켓몬상 등을 관상 테스트를 통해 분석합니다.',
+              imageUrl: 'https://alphaface-ai.com/img/solotest.jpg',
+              link: {
+                // [내 애플리케이션] > [플랫폼] 에서 등록한 사이트 도메인과 일치해야 함
+                mobileWebUrl: 'https://alphaface-ai.com',
+                webUrl: 'https://alphaface-ai.com',
+              },
+            },
+            social: {
+              likeCount: 8312,
+              commentCount: 723,
+              sharedCount: 1359,
+            },
+            buttons: [{
+              title: '테스트 바로가기',
+              link: {
+                mobileWebUrl: 'https://alphaface-ai.com/solotest/',
+                webUrl: 'https://alphaface-ai.com/solotest/',
+              },
+            }, ],
+          });
+        </script>
 
       </span>
-  
+
     </div>
-  
+
     <div class="share-btn">
       <a href="#" onclick="link_copy(); return false;"><i class="fa-solid fa-link"></i> 링크 복사하기</a>
     </div>
-  
+
     <div class="add-message">
       <p>* 사진은 시스템에 절대 저장되지 않습니다.</p>
       <p>* 현실 반영되어 각도, 배경에 따라 결과가 다르게 나타날 수 있습니다.</p>
       <p>* 결과 공유를 통해 정확도를 확인해보세요.</p>
     </div>
-  
+
     <div class="other-test">
       <button><a href="/enjoy/">다른 테스트하러 가기</a></button>
     </div>
-    
+
   </div>
 
 
@@ -364,103 +402,103 @@
       /* random comment */
       var couple_comment = document.getElementById('couple_comment');
       var solo_comment = document.getElementById('solo_comment');
-      var couple_comment_random = [
-        {
-          couple_comment :'"당신은 솔로가 아닙니다."'
+      var couple_comment_random = [{
+          couple_comment: '"당신은 솔로가 아닙니다."'
         },
         {
-          couple_comment :'"너 솔로 아니잖아..."'
+          couple_comment: '"너 솔로 아니잖아..."'
         },
         {
-          couple_comment :'"애매하지만 솔로가 아닙니다."'
+          couple_comment: '"애매하지만 솔로가 아닙니다."'
         },
         {
-          couple_comment :'"높은 확률로 솔로가 아닙니다."'
+          couple_comment: '"높은 확률로 솔로가 아닙니다."'
         },
         {
-          couple_comment :'"100 % 솔로가 아닙니다."'
+          couple_comment: '"100 % 솔로가 아닙니다."'
         },
         {
-          couple_comment :'"솔로 아니잖아. 틀릴 줄 알았지?"'
+          couple_comment: '"솔로 아니잖아. 틀릴 줄 알았지?"'
         },
         {
-          couple_comment :'"당신은 확실히 솔로가 아닙니다."'
+          couple_comment: '"당신은 확실히 솔로가 아닙니다."'
         },
         {
-          couple_comment :'"뭐야... 솔로 아니네?"'
+          couple_comment: '"뭐야... 솔로 아니네?"'
         },
         {
-          couple_comment :'"솔로가 아닙니다. 행복해라."'
+          couple_comment: '"솔로가 아닙니다. 행복해라."'
         },
         {
-          couple_comment :'"솔로가 아닙니다. 부럽다."'
+          couple_comment: '"솔로가 아닙니다. 부럽다."'
         },
         {
-          couple_comment :'"솔로가 아닙니다. 오래 만나라."'
+          couple_comment: '"솔로가 아닙니다. 오래 만나라."'
         },
         {
-          couple_comment :'"애인있어서 부럽다."'
+          couple_comment: '"애인있어서 부럽다."'
         },
         {
-          couple_comment :'"애인이랑 행복해라."'
-        },
-      ];
-      var solo_comment_random = [
-        {
-          solo_comment :'"당신은 솔로입니다."'
-        },
-        {
-          solo_comment :'"너 솔로 맞지?"'
-        },
-        {
-          solo_comment :'"애매하지만 솔로입니다."'
-        },
-        {
-          solo_comment :'"높은 확률로 솔로입니다."'
-        },
-        {
-          solo_comment :'"100 % 솔로입니다."'
-        },
-        {
-          solo_comment :'"솔로 잖아. 틀릴 줄 알았지?"'
-        },
-        {
-          solo_comment :'"확실히 솔로입니다."'
-        },
-        {
-          solo_comment :'"혹시 모태 솔로야...?"'
-        },
-        {
-          solo_comment :'"뭐야... 솔로네?"'
-        },
-        {
-          solo_comment :'"솔로... 그럴 수 있어..."'
-        },
-        {
-          solo_comment :'"솔로... 곧 생길거야..."'
-        },
-        {
-          solo_comment :'"솔로... 힘내자..."'
-        },
-        {
-          solo_comment :'"솔로야? 괜찮아..."'
-        },
-        {
-          solo_comment :'"솔로 화이팅 !"'
-        },
-        {
-          solo_comment :'"솔로 만세 !"'
+          couple_comment: '"애인이랑 행복해라."'
         },
       ];
-      if(couple_comment){
-        couple_comment.textContent = couple_comment_random[Math.floor(Math.random() * couple_comment_random.length)].couple_comment;
-      }else if(solo_comment){
-        solo_comment.textContent = solo_comment_random[Math.floor(Math.random() * solo_comment_random.length)].solo_comment;
+      var solo_comment_random = [{
+          solo_comment: '"당신은 솔로입니다."'
+        },
+        {
+          solo_comment: '"너 솔로 맞지?"'
+        },
+        {
+          solo_comment: '"애매하지만 솔로입니다."'
+        },
+        {
+          solo_comment: '"높은 확률로 솔로입니다."'
+        },
+        {
+          solo_comment: '"100 % 솔로입니다."'
+        },
+        {
+          solo_comment: '"솔로 잖아. 틀릴 줄 알았지?"'
+        },
+        {
+          solo_comment: '"확실히 솔로입니다."'
+        },
+        {
+          solo_comment: '"혹시 모태 솔로야...?"'
+        },
+        {
+          solo_comment: '"뭐야... 솔로네?"'
+        },
+        {
+          solo_comment: '"솔로... 그럴 수 있어..."'
+        },
+        {
+          solo_comment: '"솔로... 곧 생길거야..."'
+        },
+        {
+          solo_comment: '"솔로... 힘내자..."'
+        },
+        {
+          solo_comment: '"솔로야? 괜찮아..."'
+        },
+        {
+          solo_comment: '"솔로 화이팅 !"'
+        },
+        {
+          solo_comment: '"솔로 만세 !"'
+        },
+      ];
+      if (couple_comment) {
+        couple_comment.textContent = couple_comment_random[Math.floor(Math.random() * couple_comment_random.length)]
+          .couple_comment;
+      } else if (solo_comment) {
+        solo_comment.textContent = solo_comment_random[Math.floor(Math.random() * solo_comment_random.length)]
+          .solo_comment;
       };
 
       for (let i = 0; i < maxPredictions; i++) {
         const classPrediction =
-        prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
+          prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
         labelContainer.childNodes[i].innerHTML = classPrediction;
       }
     }
