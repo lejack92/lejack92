@@ -191,33 +191,6 @@
             var sendUrl = "https://alphaface-ai.com/facembti/";
             window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
           }
-
-          if (!Kakao.isInitialized()) {
-            Kakao.init('da983c06b8fdbdfa8f6cdbc3e768cb81');
-          }
-
-          var thumbImg = $('meta[property="og:image"]').attr('content'); //og이미지 주소
-          var thumbTitle = $('meta[property="og:title"]').attr('content'); //og타이틀
-          var thumbDesc = $('meta[property="og:description"]').attr('content'); //og설명
-          var linkUrl = $('meta[property="og:url"]').attr('content'); //url
-
-          var sendKakao = function () {
-            // 메시지 공유 함수
-            Kakao.Link.sendScrap({
-              requestUrl: linkUrl, // 페이지 url
-              templateId: 927951, // 메시지템플릿 번호
-              templateArgs: {
-                THUMB: thumbImg, // 썸네일 주소
-                TITLE: thumbTitle, // 제목 텍스트
-                DESC: thumbDesc, // 설명 텍스트
-              },
-            });
-          };
-
-          var kakaoShareBtn = document.querySelector('.kakao-share');
-          kakaoShareBtn.addEventListener('click', function () {
-            shareKakao();
-          });
         </script>
 
 
@@ -225,9 +198,18 @@
 
         <a id="btnTwitter" class="link-icon twitter" href="javascript:shareTwitter();"></a>
         <a id="btnFacebook" class="link-icon facebook" href="javascript:shareFacebook();"></a>
-        <a class="kakao-share">
-          <img style="cursor: pointer;" src="/common/img/kakao.png" alt="카카오톡 공유" />
+        <a href="javascript:;" class="share_btn" id="kakao-link-btn">
+          공유하기
         </a>
+
+        <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script type='text/javascript'>
+          Kakao.init('da983c06b8fdbdfa8f6cdbc3e768cb81')
+          Kakao.Link.createCustomButton({
+            container: '#kakao-link-btn',
+            templateId: '95240'
+          });
+        </script>
 
       </span>
 
