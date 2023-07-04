@@ -198,6 +198,8 @@ section.enjoy{
 .enjoy_menu.likeability_menu:hover{border-bottom: 3px solid #ff3399;}
 .enjoy_menu.hiddenface_menu:hover{border-bottom: 3px solid #1a4568;}
 .enjoy_menu.solo_menu:hover{border-bottom: 3px solid #fc0c65;}
+.enjoy_menu.hand_menu:hover{border-bottom: 3px solid #0043F0;}
+
 .enjoy_menu:hover .enjoy_img{
   transform: scale(1.1);
 }
@@ -216,6 +218,7 @@ section.enjoy{
 .enjoy_menu.likeability_menu .enjoy_img{background: url(/img/likeabilitytest.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.hiddenface_menu .enjoy_img{background: url(/img/hiddenface.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.solo_menu .enjoy_img{background: url(/img/solotest.jpg) center no-repeat;background-size: cover;}
+.enjoy_menu.hand_menu .enjoy_img{background: url(/img/handlevel.jpg) center no-repeat;background-size: cover;}
 
 .enjoy_content{
   text-align: center;
@@ -234,6 +237,7 @@ section.enjoy{
 .enjoy_menu.likeability_menu .enjoy_content h3{color: #ff3399;}
 .enjoy_menu.hiddenface_menu .enjoy_content h3{color: #1a4568;}
 .enjoy_menu.solo_menu .enjoy_content h3{color: #fc0c65;}
+.enjoy_menu.hand_menu .enjoy_content h3{color: #0043F0;}
 
 .enjoy_content p {
   font-size: 0.9rem;
