@@ -197,7 +197,7 @@ a {
 /* test section bottom */
 .remove-image {
   background-color: #E64B7B;
-  border: none;
+  border: 0.15rem solid transparent;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -216,6 +216,7 @@ a {
 .remove-image:hover {
   background-color: #fff;
   color: #E64B7B;
+  border: 0.15rem solid #E64B7B;
 }
 
 .remove-image i {
@@ -233,7 +234,7 @@ a {
   display: inline-block;
   background: linear-gradient(90deg, rgba(247, 3, 226, 1) 24%, rgba(231, 13, 13, 0.9360119047619048) 51%, rgba(241, 179, 9, 1) 74%, rgba(245, 246, 7, 1) 100%);
   color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; /* 수정 금지 */
   font-size: 1.8rem;
   font-weight: 600;
   font-family: 'SBAggroM', sans-serif;
@@ -290,7 +291,9 @@ a {
 .share .naver {
   margin-right: 5px;
 }
-
+.share .naver a{
+  margin-left: 0.6rem;
+}
 .share .naver a:hover,
 .share .naver a:hover img {
   transform: translateY(-4px);
@@ -331,7 +334,7 @@ a {
   background: #00c73c;
   color: #fff;
   border-radius: 2rem;
-  border: 0.1rem solid #fff;
+  border: 0.15rem solid transparent;
 }
 
 .share-btn a i {
@@ -342,7 +345,7 @@ a {
 .share-btn a:hover {
   background: #fff;
   color: #00c73c;
-  border: 0.1rem solid transparent;
+  border: 0.15rem solid #00c73c;
 }
 
 .add-message {
@@ -413,11 +416,14 @@ a {
   background: #0084FF;
   color: #fff;
   border-radius: 4px;
+  border: 0.15rem solid transparent
+  ;
 }
 
 .other-test a:hover {
   background: #fff;
   color: #0084FF;
+  border: 0.15rem solid #0084ff;
 }
 
 /* footer */
