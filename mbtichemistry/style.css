@@ -40,15 +40,15 @@
 .suject{
     font-family: 'BMJUA',sans-serif;
     margin: 3.5rem auto 0;
-    font-size: 7.8rem;
+    font-size: 6.6rem;
     color: #9f1dbb;
     text-align: center;
     -webkit-text-stroke: 0.25rem #ffa2e6;
-    text-shadow: -0.5rem 0rem 0rem rgba(0, 0, 0, 0.7); 
+    text-shadow: -0.4rem 0rem 0rem rgba(0, 0, 0, 0.6); 
 }
 .suject .txt_chemistry{
     color: #ffa2e6;
-    font-size: 7.8rem;
+    font-size: 6.6rem;
     -webkit-text-stroke: 0.25rem #9f1dbb;
 }
 
