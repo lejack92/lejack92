@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Allow:/
 
 #DaumWebMasterTool:f6a182b0baf0af697bacf1c2240bc63d9c9dcc803cda41621802f7d9aa9bcc37:vbnlqfkDoYuwvUS2cRCHZw==
