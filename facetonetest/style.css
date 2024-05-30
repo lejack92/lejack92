@@ -5,26 +5,38 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'BMJUA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Giants-Inline';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Inline.woff2') format('woff2');
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SokchoBadaBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaBatang.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KoddiUDOnGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/KoddiUDOnGothic-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'GangwonEdu_OTFBoldA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,19 +50,20 @@
 }
 
 .suject{
-    font-family: 'BMJUA',sans-serif;
+    font-family: 'SokchoBadaBatang', sans-serif;
     margin: 3.5rem auto 0;
-    font-size: 6.6rem;
-    color: #9f1dbb;
+    line-height: 1.4;
+    font-size: 5rem;
+    color: #c54966;
     text-align: center;
-    -webkit-text-stroke: 0.25rem #ffa2e6;
-    text-shadow: -0.4rem 0rem 0rem rgba(0, 0, 0, 0.6); 
+    -webkit-text-stroke: 0.1rem #ffbe98;
 }
 
 .subject_eng{
-    font-family: 'BMJUA',sans-serif;
+    font-family: 'SokchoBadaBatang', sans-serif;
     text-align: center;
-    color: #333;
+    line-height: 1.1;
+    color: #ca848a;
     font-size: 1.6rem;
     margin: 0 0 2rem;
 }
@@ -64,7 +77,7 @@
 }
 .precise div{
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(197,73,102, 0.3);
     width: 31%;
     padding: 0.8rem 0.2rem 0.6rem;
     height: 8.2rem;
@@ -74,7 +87,9 @@
     margin-bottom: 0.8rem;
 }
 .precise div p{
-    color: #fff;
+    font-family: 'SokchoBadaBatang', sans-serif;
+    color: #ffffff;
+    opacity: 0.8;
     line-height: 1.3;
 }
 
@@ -85,7 +100,7 @@
 
 .image-upload-wrap {
     border-radius: 18%;
-    background-color: pink;
+    background-color: rgba(202,132,138, 1);
     height: 16rem;
     width: 20rem;
     margin: 0 auto;
@@ -140,13 +155,12 @@
 }
 .image-upload-wrap .upload_btn i{
     font-size: 11rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
 }
 .file-upload-content {
     display: none;
     text-align: center;
     width: 100%;
-    padding: 3rem 0 4rem;
     border-radius: 1rem;
 }
 
@@ -155,20 +169,19 @@
     color: #222;
 }
 
-.matching_couple{
-    display: flex;
-    justify-content: center;
+.matching_color{
+    position: relative;
 }
 
-.result-container, .matching-container{ 
+.result-container{ 
     position: relative;
     border-radius: 100%;
     overflow: hidden;
-    width: 14rem;
-    height: 14rem;
-    z-index: 1;
-    border: 0.3rem solid #ccc;
+    width: 11rem;
+    height: 11rem;
+    z-index: 0;
     background: #ccc;
+    margin: 5.5rem auto;
 }
 .file-upload-image {
     width: 100%;
@@ -179,64 +192,35 @@
 }
 
 .matching{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+}
+.matching-container{ 
     position: relative;
-    align-items: center;
-    display: flex;
-}
-.matching_heart{
-    width: 6rem;
-    height: 6rem;
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 18rem;
+    height: 18rem;
     z-index: 1;
-    margin: auto 1rem;
-}
-
-.matching-container.purple_bg{
-    background-color: #E7DFEA;
-}
-.matching-container.blue_bg{
-    background-color: #D9EAF0;
-}
-.matching-container.green_bg{
-    background-color: #D6ECE3;
-}
-.matching-container.yellow_bg{
-    background-color: #F9EED7;
+    border: 0.3rem solid #ccc;
+    background: #ccc;
 }
 .matching-container > img{
-    width: 100%;
+    width: 110%;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
 }
 .matching-container > img.matchingerror_user{
     width: 88%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-.matching-container .mbti_tack span{
-    font-family: 'BMJUA',sans-serif;
-    width: 100%;
-    position: absolute;
-    bottom: 8%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 3.2rem;
-    -webkit-text-stroke: 0.13rem #000;
-    text-shadow: -0.2rem 0rem 0rem rgba(0, 0, 0, 0.7);
-}
-.matching-container.purple_bg .mbti_tack span{
-    color: #90759F;
-}
-.matching-container.blue_bg .mbti_tack span{
-    color: #71CACC;
-}
-.matching-container.green_bg .mbti_tack span{
-    color: #D9E34F;
-}
-.matching-container.yellow_bg .mbti_tack span{
-    color: #E4C728;
 }
 
 .loadingBox {
@@ -247,21 +231,34 @@
     color: #000;
 }
 
-.result-title {
-    margin: 2rem auto;
-    color: #424242;
+.result-title p.tone_hashtag{
+    color: #5393CF;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'KoddiUDOnGothic-Regular', sans-serif;
+}
+
+.result-title .tone_title{
+    font-family: 'GangwonEdu_OTFBoldA',sans-serif;
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin: 1.8rem auto 1.1rem;
 }
 .result-title span{
-    color: #F44C71;
-    font-size: 4.6rem;
-    font-family: 'Giants-Inline',sans-serif;
-    display: inline-block;
-    margin-bottom: 2rem;
-}
-.result-title p{
-    font-size: 1.4rem;
+    font-size: 3rem;
     font-weight: 600;
-    color: #F5ED64;
+}
+.spring_font{
+    color: #E98352;
+}
+.summer_font{
+    color: #E2719D;
+}
+.autumn_font{
+    color: #E98352;
+}
+.winter_font{
+    color: #DB2F45;
 }
 
 .resultMessage1 .character{
@@ -272,6 +269,73 @@
     color: #fff;
 }
 
+.resultMessage2{
+    border-radius: 0.5rem;
+    padding: 3.5rem 0 3rem;
+    margin: 2rem auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+.resultMessage2 h3{
+    font-family: 'GangwonEdu_OTFBoldA',sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.color_content .color_box{
+    font-family: 'SokchoBadaBatang',sans-serif;
+    width: 92%;
+    margin: 0 auto 3.5rem;
+    display: flex;
+    align-items: center;
+}
+.color_content .color_box > div{
+    width: 25%;
+    font-size: 1.4rem;
+    line-height: 4;
+}
+
+.lip_content .lip_list{
+    display: flex;
+    width: 92%;
+    margin: 0 auto 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.lip_list > .lip_box{
+    width: 25%;
+    position: relative;
+}
+.lip_list > .lip_box img{
+    width: 100%;
+}
+.lip_list > .lip_box p{
+    position: absolute;
+    font-family: 'InkLipquid',sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    right: 5%;
+    bottom: 4%;
+}
+
+.jewelry_box{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+.jewelry_box img{
+    width: 33.3%;
+}
+.jewelry_content p{
+    width: 92%;
+    font-family: 'SokchoBadaBatang',sans-serif;
+    font-size: 1.4rem;
+    margin: 0.5rem auto;
+    line-height: 1.4;
+}
+
+
 .remove-image{
     display: none;
     justify-content: center;
@@ -279,12 +343,8 @@
     margin-right: auto;
 }
 
-.let-share{
-    color: #000;
-}
-
 .add-message{
-    color: #ee3224;
+    color: #ffea00;
     opacity: 1;
 }
 
@@ -294,28 +354,19 @@
         width: auto;
         min-width: 100%;
     }
-    .suject .txt_face{
-        font-size: 10rem;
-    }
-    .suject .txt_mbti{
-        font-size: 10rem;
+    .suject{
+        font-size: 5.1rem;
+        line-height: 1.5;
     }
     .subject_eng{
         font-size: 2rem;
-    }
-
-    .file-upload-content{
-        padding: 5rem 0;
     }
 
     .file-upload{
         width: 46rem;
     }
     .loadingBox{
-        width: 42rem;
-    }
-    .result-title{
-        margin: 3rem auto;
+        width: 44rem;
     }
     .image-upload-wrap{
         width: 24rem;
@@ -332,32 +383,59 @@
         font-size: 14rem;
     }
 
-    .result-container, .matching-container{
-        width: 16rem;
-        height: 16rem;
-    }
-    .matching_heart {
-        width: 6.5rem;
-        height: 6.5rem;
-        margin: auto 0.4rem;
-    }
-    .matching-container .mbti_tack span{
-        font-size: 4.2rem;
-        -webkit-text-stroke: 0.15rem #000;
-        text-shadow: -0.3rem 0rem 0rem rgba(0, 0, 0, 0.7);
+    .result-container{
+        width: 15rem;
+        height: 15rem;
+        margin: 7.5rem auto;
     }
 
-    .result-title p{
+    .matching-container{
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .result-title p.tone_hashtag{
         font-size: 2rem;
     }
+
+    .result-title .tone_title{
+        font-size: 3rem;
+        margin: 2rem auto 1.3rem;
+    }
+
+    .result-title p span{
+        font-size: 3.6rem;
+    }
+
 
     .resultMessage1 .character{
         font-size: 2rem;
     }
 
+    .resultMessage2{
+        margin: 2.2rem auto;
+    }
+    .resultMessage2 h3{
+        font-size: 2.8rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .color_content .color_box,
+    .lip_content .lip_list{
+        margin: 0 auto 4.6rem;
+    }
+    .color_content .color_box > div{
+        font-size: 1.8rem;
+    }
+
+    .jewelry_content p{
+        font-size: 1.8rem;
+    }
+
+
     .precise {
         flex-direction: column;
-        margin: 2rem 0 3rem;
+        margin: 2rem 0 2rem;
     }
     .precise div{
         width: 88%;

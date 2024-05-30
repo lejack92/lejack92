@@ -142,10 +142,10 @@ a {text-decoration: none;}
 .rank-img{width: 70%; height: 14rem; background-position: center; background-repeat: no-repeat; background-size: contain;}
 .mo-rank-box{display: none;}
 
-.rank-1st{background-image: url("img/mbtichemistry.jpg");}
+.rank-1st{background-image: url("img/facetonetest.jpg");}
 .rank-2st{background-image: url("img/likeabilitytest.jpg");}
 .rank-3st{background-image: url("img/facembti.jpg");}
-.rank-4st{background-image: url("img/handlevel.jpg");}
+.rank-4st{background-image: url("img/mbtichemistry.jpg");}
 .rank-5st{background-image: url("img/pokemonface.jpg");}
 
 .swiper-button-next.rank-button-next,.swiper-button-prev.rank-button-prev{color: #fff; font-weight: bold;}
@@ -198,6 +198,7 @@ section.enjoy{
 .enjoy_menu.solo_menu:hover{border-bottom: 3px solid #fc0c65;}
 .enjoy_menu.hand_menu:hover{border-bottom: 3px solid #0043F0;}
 .enjoy_menu.mbtichemistry_menu:hover{border-bottom: 3px solid #9f1dbb;}
+.enjoy_menu.facetone_menu:hover{border-bottom: 3px solid #FF3954;}
 
 .enjoy_menu:hover .enjoy_img{
   transform: scale(1.1);
@@ -219,6 +220,7 @@ section.enjoy{
 .enjoy_menu.solo_menu .enjoy_img{background: url(/img/solotest.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.hand_menu .enjoy_img{background: url(/img/handlevel.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.mbtichemistry_menu .enjoy_img{background: url(/img/mbtichemistry.jpg) center no-repeat;background-size: cover;}
+.enjoy_menu.facetone_menu .enjoy_img{background: url(/img/facetonetest.jpg) center no-repeat;background-size: cover;}
 
 .enjoy_content{
   text-align: center;
@@ -239,6 +241,7 @@ section.enjoy{
 .enjoy_menu.solo_menu .enjoy_content h3{color: #fc0c65;}
 .enjoy_menu.hand_menu .enjoy_content h3{color: #0043F0;}
 .enjoy_menu.mbtichemistry_menu .enjoy_content h3{color: #9f1dbb;}
+.enjoy_menu.facetone_menu .enjoy_content h3{color: #FF3954;}
 
 .enjoy_content p {
   font-size: 0.9rem;
