@@ -142,7 +142,7 @@ a {text-decoration: none;}
 .rank-img{width: 70%; height: 14rem; background-position: center; background-repeat: no-repeat; background-size: contain;}
 .mo-rank-box{display: none;}
 
-.rank-1st{background-image: url("img/facetonetest.jpg");}
+.rank-1st{background-image: url("img/personalcolor.jpg");}
 .rank-2st{background-image: url("img/likeabilitytest.jpg");}
 .rank-3st{background-image: url("img/facembti.jpg");}
 .rank-4st{background-image: url("img/mbtichemistry.jpg");}
@@ -220,7 +220,7 @@ section.enjoy{
 .enjoy_menu.solo_menu .enjoy_img{background: url(/img/solotest.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.hand_menu .enjoy_img{background: url(/img/handlevel.jpg) center no-repeat;background-size: cover;}
 .enjoy_menu.mbtichemistry_menu .enjoy_img{background: url(/img/mbtichemistry.jpg) center no-repeat;background-size: cover;}
-.enjoy_menu.facetone_menu .enjoy_img{background: url(/img/facetonetest.jpg) center no-repeat;background-size: cover;}
+.enjoy_menu.facetone_menu .enjoy_img{background: url(/img/personalcolor.jpg) center no-repeat;background-size: cover;}
 
 .enjoy_content{
   text-align: center;
